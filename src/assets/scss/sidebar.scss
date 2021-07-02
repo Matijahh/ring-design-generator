@@ -1,0 +1,36 @@
+.sidebar-container {
+  width: 300px;
+  height: calc(100vh - 170px);
+  display: flex;
+  flex-direction: column;
+
+  .sidebar-tab {
+    width: 200px;
+    height: 50px;
+    margin: 30px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0 40px 40px 0;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+
+    img {
+      width: 30px;
+      margin-right: 10px;
+    }
+  }
+
+  .is-active {
+    width: 250px;
+  }
+}
