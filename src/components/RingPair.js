@@ -345,6 +345,21 @@ import Forma9WhiteGoldSinglePolished from "../assets/images/forma-9-white-gold-s
 import Forma95WhiteGoldSinglePolished from "../assets/images/forma-9.5-white-gold-single-polished.jpg";
 import Forma10WhiteGoldSinglePolished from "../assets/images/forma-10-white-gold-single-polished.jpg";
 
+import SingleColored from "../assets/images/single-colored.jpg";
+import BiColored1 from "../assets/images/bi-colored-1.jpg";
+import BiColored2 from "../assets/images/bi-colored-2.jpg";
+import BiColored3 from "../assets/images/bi-colored-3.jpg";
+import BiColored4 from "../assets/images/bi-colored-4.jpg";
+import TriColored1 from "../assets/images/tri-colored-1.jpg";
+import TriColored2 from "../assets/images/tri-colored-2.jpg";
+import TriColored3 from "../assets/images/tri-colored-3.jpg";
+import TriColored4 from "../assets/images/tri-colored-4.jpg";
+import TriColored5 from "../assets/images/tri-colored-5.jpg";
+import TriColored6 from "../assets/images/tri-colored-6.jpg";
+import TriColored7 from "../assets/images/tri-colored-7.jpg";
+import TriColored8 from "../assets/images/tri-colored-8.jpg";
+import AlocationModal from "./modals/AlocationModal";
+
 const options = [
   { value: "oval", label: "Ovalni" },
   { value: "elipse", label: "Elipsiodni" },
@@ -352,6 +367,12 @@ const options = [
   { value: "sidecut", label: "Isečeno sa strane" },
   { value: "planar", label: "Planarni" },
   { value: "forma", label: "Formalni" },
+];
+
+const seamOptions = [
+  { value: "seamless", label: "Bez poruba" },
+  { value: "v-seam", label: "V-Porub" },
+  { value: "u-seam", label: "U-Porub" },
 ];
 
 const IMAGES = {
@@ -1217,6 +1238,10 @@ class RingPair extends Component {
       color: "white-gold",
       measure: 4,
       size: 45,
+      surface: "polished",
+      seam: "seamless",
+      alocationModal: false,
+      alocation: "single",
     };
   }
   render() {
@@ -1331,6 +1356,123 @@ class RingPair extends Component {
                 onClick={() => this.setState({ color: "rose-gold" })}
               ></div>
             </div>
+          </div>
+          <div
+            className="ring-color-select-container"
+            style={{ marginTop: 40 }}
+          >
+            <span className="ring-profile-select-span">Površina prstena:</span>
+            <div
+              style={{
+                display: "flex",
+                width: "100%",
+                justifyContent: "center",
+              }}
+            >
+              <div
+                className={`ring-color-tab polished-texture ${
+                  this.state.surface === "polished" && "selected"
+                }`}
+                onClick={() => this.setState({ surface: "polished" })}
+              ></div>
+              <div
+                className={`ring-color-tab silk-texture ${
+                  this.state.surface === "silk" && "selected"
+                }`}
+                onClick={() => this.setState({ surface: "silk" })}
+              ></div>
+              <div
+                className={`ring-color-tab sand-texture ${
+                  this.state.surface === "sand" && "selected"
+                }`}
+                onClick={() => this.setState({ surface: "sand" })}
+              ></div>
+              <div
+                className={`ring-color-tab ice-texture ${
+                  this.state.surface === "ice" && "selected"
+                }`}
+                onClick={() => this.setState({ surface: "ice" })}
+              ></div>
+              <div
+                className={`ring-color-tab rock-texture ${
+                  this.state.surface === "rock" && "selected"
+                }`}
+                onClick={() => this.setState({ surface: "rock" })}
+              ></div>
+            </div>
+          </div>
+          <div
+            className="ring-profile-select-container"
+            style={{ marginTop: 40 }}
+          >
+            <span className="ring-profile-select-span">Porub Prstena:</span>
+            <div style={{ width: "100%" }}>
+              <Select
+                className="ring-profile-select-select"
+                options={seamOptions}
+                isClearable
+                placeholder="Izaberi..."
+                onChange={(e) =>
+                  this.setState({ seam: e ? e.value : "seamless" })
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="ring-profile-select-container alocation-container"
+            style={{ marginTop: 40, position: "relative" }}
+          >
+            {this.state.alocationModal && (
+              <AlocationModal
+                onChangeAlocation={(alocation) =>
+                  this.setState({
+                    alocation: alocation,
+                    alocationModal: !this.state.alocationModal,
+                  })
+                }
+              />
+            )}
+            <span
+              className="ring-profile-select-span"
+              style={{ marginRight: 70 }}
+            >
+              Alokacija Prstena:
+            </span>
+            <img
+              src={
+                this.state.alocation === "single"
+                  ? SingleColored
+                  : this.state.alocation === "bi-1"
+                  ? BiColored1
+                  : this.state.alocation === "bi-2"
+                  ? BiColored2
+                  : this.state.alocation === "bi-3"
+                  ? BiColored3
+                  : this.state.alocation === "bi-4"
+                  ? BiColored4
+                  : this.state.alocation === "tri-1"
+                  ? TriColored1
+                  : this.state.alocation === "tri-2"
+                  ? TriColored2
+                  : this.state.alocation === "tri-3"
+                  ? TriColored3
+                  : this.state.alocation === "tri-4"
+                  ? TriColored4
+                  : this.state.alocation === "tri-5"
+                  ? TriColored5
+                  : this.state.alocation === "tri-6"
+                  ? TriColored6
+                  : this.state.alocation === "tri-7"
+                  ? TriColored7
+                  : this.state.alocation === "tri-8"
+                  ? TriColored8
+                  : SingleColored
+              }
+              alt="Alocation"
+              onClick={() =>
+                this.setState({ alocationModal: !this.state.alocationModal })
+              }
+            />
           </div>
         </div>
       </div>

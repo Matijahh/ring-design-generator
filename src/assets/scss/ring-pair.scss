@@ -87,10 +87,48 @@
 
     .rose-gold-color {
       background: linear-gradient(#b86b77, #c0838c, #cf989f, #d8abb1, #e0bcbf);
+      margin-right: 0;
     }
 
     .white-gold-color {
       background: linear-gradient(#848b98, #959ba3, #aeb2b8, #c7c9cb, #d7d7d8);
+    }
+
+    .polished-texture {
+      background-image: url("../images/polished-texture.png");
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    .silk-texture {
+      background-image: url("../images/silk-texture.jpg");
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    .sand-texture {
+      background-image: url("../images/sand-texture.jpg");
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    .ice-texture {
+      background-image: url("../images/ice-texture.png");
+      background-size: cover;
+      margin-right: 10px;
+    }
+
+    .rock-texture {
+      background-image: url("../images/rock-texture.jpg");
+      background-size: cover;
+      margin-right: 0px;
+    }
+  }
+
+  .alocation-container {
+    img {
+      height: 300px;
+      cursor: pointer;
     }
   }
 }
