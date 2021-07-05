@@ -9,18 +9,19 @@ class Sidebar extends Component {
       <React.Fragment>
         <div className="sidebar-container">
           <NavLink
-            to="/pair"
+            to="/"
+            exact
             className="sidebar-tab"
             activeClassName="is-active"
           >
             <img src={WeddingRings} alt="Par Prstenova" /> Par Prstenova
           </NavLink>
           <NavLink
-            to="/with-solitaire"
+            to="/one-ring"
             className="sidebar-tab"
             activeClassName="is-active"
           >
-            <img src={RingWithDiamond} alt="Pasijans" /> Pasijans
+            <img src={RingWithDiamond} alt="Jedan Prsten" /> Jedan Prsten
           </NavLink>
         </div>
       </React.Fragment>

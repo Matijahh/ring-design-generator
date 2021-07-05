@@ -56,17 +56,22 @@
       }
     }
 
-    .ring-color-tab {
+    .ring-color-tab,
+    .color-tab {
       width: 100px;
       margin-right: 20px;
       position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
       height: 30px;
       border-radius: 30px;
       box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
       cursor: pointer;
     }
 
-    .ring-color-tab:hover {
+    .color-tab:hover {
       opacity: 0.8;
     }
 

@@ -25,3 +25,18 @@
     }
   }
 }
+
+.color-material-modal-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  position: absolute;
+  top: -150px;
+  left: -50%;
+  transform: translate(-35%, 0%);
+  z-index: 1005;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  span {
+    width: 100px !important;
+  }
+}

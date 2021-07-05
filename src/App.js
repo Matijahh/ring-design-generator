@@ -7,7 +7,7 @@ import "./assets/scss/app.scss";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import RingPair from "./components/RingPair";
-import RingWithSolitaire from "./components/RingWithSolitaire";
+import RingSolo from "./components/RingSolo";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <div style={{ display: "flex", width: "100vw", position: "relative" }}>
         <Sidebar />
         <Switch>
-          <Route path="/pair" component={RingPair} />
-          <Route path="/with-solitaire" component={RingWithSolitaire} />
+          <Route exact path="/" component={RingPair} />
+          <Route path="/one-ring" component={RingSolo} />
         </Switch>
       </div>
     </div>
