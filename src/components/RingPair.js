@@ -1062,7 +1062,7 @@ class RingPair extends Component {
               }}
             >
               <div
-                className="ring-color-tab"
+                className={`ring-color-tab ${this.state.color}-color`}
                 onClick={() =>
                   this.setState({
                     colorMaterialModal2: false,
@@ -1091,7 +1091,7 @@ class RingPair extends Component {
               </div>
               {this.state.alocation !== "single" && (
                 <div
-                  className="ring-color-tab"
+                  className={`ring-color-tab ${this.state.color2}-color`}
                   onClick={() =>
                     this.setState({
                       colorMaterialModal1: false,
@@ -1125,7 +1125,7 @@ class RingPair extends Component {
                 this.state.alocation !== "bi-3" &&
                 this.state.alocation !== "bi-4" && (
                   <div
-                    className="ring-color-tab"
+                    className={`ring-color-tab ${this.state.color3}-color`}
                     onClick={() =>
                       this.setState({
                         colorMaterialModal1: false,
@@ -1153,70 +1153,9 @@ class RingPair extends Component {
                     <span>3</span>
                   </div>
                 )}
-              {/* <div
-                className={`ring-color-tab white-gold-color ${
-                  this.state.color === "white-gold" && "selected"
-                }`}
-                onClick={() => this.setState({ color: "white-gold" })}
-              ></div>
-              <div
-                className={`ring-color-tab yellow-gold-color ${
-                  this.state.color === "yellow-gold" && "selected"
-                }`}
-                onClick={() => this.setState({ color: "yellow-gold" })}
-              ></div>
-              <div
-                className={`ring-color-tab rose-gold-color ${
-                  this.state.color === "rose-gold" && "selected"
-                }`}
-                onClick={() => this.setState({ color: "rose-gold" })}
-              ></div> */}
             </div>
           </div>
-          {/* <div
-            className="ring-color-select-container"
-            style={{ marginTop: 40 }}
-          >
-            <span className="ring-profile-select-span">Površina prstena:</span>
-            <div
-              style={{
-                display: "flex",
-                width: "100%",
-                justifyContent: "center",
-              }}
-            >
-              <div
-                className={`ring-color-tab polished-texture ${
-                  this.state.surface === "polished" && "selected"
-                }`}
-                onClick={() => this.setState({ surface: "polished" })}
-              ></div>
-              <div
-                className={`ring-color-tab silk-texture ${
-                  this.state.surface === "silk" && "selected"
-                }`}
-                onClick={() => this.setState({ surface: "silk" })}
-              ></div>
-              <div
-                className={`ring-color-tab sand-texture ${
-                  this.state.surface === "sand" && "selected"
-                }`}
-                onClick={() => this.setState({ surface: "sand" })}
-              ></div>
-              <div
-                className={`ring-color-tab ice-texture ${
-                  this.state.surface === "ice" && "selected"
-                }`}
-                onClick={() => this.setState({ surface: "ice" })}
-              ></div>
-              <div
-                className={`ring-color-tab rock-texture ${
-                  this.state.surface === "rock" && "selected"
-                }`}
-                onClick={() => this.setState({ surface: "rock" })}
-              ></div>
-            </div>
-          </div> */}
+
           <div
             className="ring-profile-select-container"
             style={{ marginTop: 40 }}
