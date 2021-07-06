@@ -1985,6 +1985,7 @@ class RingPair extends Component {
                   this.setState({
                     colorMaterialModal2: false,
                     colorMaterialModal3: false,
+                    alocationModal: false,
                     colorMaterialModal1: !this.state.colorMaterialModal1,
                   })
                 }
@@ -2014,6 +2015,7 @@ class RingPair extends Component {
                     this.setState({
                       colorMaterialModal1: false,
                       colorMaterialModal3: false,
+                      alocationModal: false,
                       colorMaterialModal2: !this.state.colorMaterialModal2,
                     })
                   }
@@ -2023,13 +2025,13 @@ class RingPair extends Component {
                       onChangeColor={(color) =>
                         this.setState({
                           color2: color,
-                          colorMaterialModal1: false,
+                          colorMaterialModal2: false,
                         })
                       }
                       onChangeMaterial={(material) =>
                         this.setState({
                           surface2: material,
-                          colorMaterialModal1: false,
+                          colorMaterialModal2: false,
                         })
                       }
                     />
@@ -2048,6 +2050,7 @@ class RingPair extends Component {
                       this.setState({
                         colorMaterialModal1: false,
                         colorMaterialModal2: false,
+                        alocationModal: false,
                         colorMaterialModal3: !this.state.colorMaterialModal3,
                       })
                     }
@@ -2057,13 +2060,13 @@ class RingPair extends Component {
                         onChangeColor={(color) =>
                           this.setState({
                             color3: color,
-                            colorMaterialModal1: false,
+                            colorMaterialModal3: false,
                           })
                         }
                         onChangeMaterial={(material) =>
                           this.setState({
                             surface3: material,
-                            colorMaterialModal1: false,
+                            colorMaterialModal3: false,
                           })
                         }
                       />
@@ -2099,6 +2102,9 @@ class RingPair extends Component {
               <AlocationModal
                 onChangeAlocation={(alocation) =>
                   this.setState({
+                    colorMaterialModal1: false,
+                    colorMaterialModal2: false,
+                    colorMaterialModal3: false,
                     alocation: alocation,
                     alocationModal: !this.state.alocationModal,
                   })
@@ -2143,7 +2149,12 @@ class RingPair extends Component {
               }
               alt="Alocation"
               onClick={() =>
-                this.setState({ alocationModal: !this.state.alocationModal })
+                this.setState({
+                  alocationModal: !this.state.alocationModal,
+                  colorMaterialModal1: false,
+                  colorMaterialModal2: false,
+                  colorMaterialModal3: false,
+                })
               }
             />
           </div>
