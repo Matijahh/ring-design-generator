@@ -24,923 +24,1841 @@ const seamOptions = [
 ];
 
 const IMAGESCOMB = {
-  "oval2yellow-gold": (
+  "oval2yellow-goldsinglepolished": (
     <img src={IMAGES.Oval2YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval2.5yellow-gold": (
+  "oval2.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval25YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval3yellow-gold": (
+  "oval3yellow-goldsinglepolished": (
     <img src={IMAGES.Oval3YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval3.5yellow-gold": (
+  "oval3.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval35YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval4yellow-gold": (
+  "oval4yellow-goldsinglepolished": (
     <img src={IMAGES.Oval4YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval4.5yellow-gold": (
+  "oval4.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval45YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval5yellow-gold": (
+  "oval5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval5YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval5.5yellow-gold": (
+  "oval5.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval55YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval6yellow-gold": (
+  "oval6yellow-goldsinglepolished": (
     <img src={IMAGES.Oval6YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval6.5yellow-gold": (
+  "oval6.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval65YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval7yellow-gold": (
+  "oval7yellow-goldsinglepolished": (
     <img src={IMAGES.Oval7YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval7.5yellow-gold": (
+  "oval7.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval75YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval8yellow-gold": (
+  "oval8yellow-goldsinglepolished": (
     <img src={IMAGES.Oval8YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval8.5yellow-gold": (
+  "oval8.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval85YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval9yellow-gold": (
+  "oval9yellow-goldsinglepolished": (
     <img src={IMAGES.Oval9YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval9.5yellow-gold": (
+  "oval9.5yellow-goldsinglepolished": (
     <img src={IMAGES.Oval95YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval10yellow-gold": (
+  "oval10yellow-goldsinglepolished": (
     <img src={IMAGES.Oval10YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "oval2rose-gold": (
+  "oval2rose-goldsinglepolished": (
     <img src={IMAGES.Oval2RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval2.5rose-gold": (
+  "oval2.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval25RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval3rose-gold": (
+  "oval3rose-goldsinglepolished": (
     <img src={IMAGES.Oval3RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval3.5rose-gold": (
+  "oval3.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval35RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval4rose-gold": (
+  "oval4rose-goldsinglepolished": (
     <img src={IMAGES.Oval4RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval4.5rose-gold": (
+  "oval4.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval45RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval5rose-gold": (
+  "oval5rose-goldsinglepolished": (
     <img src={IMAGES.Oval5RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval5.5rose-gold": (
+  "oval5.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval55RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval6rose-gold": (
+  "oval6rose-goldsinglepolished": (
     <img src={IMAGES.Oval6RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval6.5rose-gold": (
+  "oval6.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval65RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval7rose-gold": (
+  "oval7rose-goldsinglepolished": (
     <img src={IMAGES.Oval7RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval7.5rose-gold": (
+  "oval7.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval75RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval8rose-gold": (
+  "oval8rose-goldsinglepolished": (
     <img src={IMAGES.Oval8RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval8.5rose-gold": (
+  "oval8.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval85RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval9rose-gold": (
+  "oval9rose-goldsinglepolished": (
     <img src={IMAGES.Oval9RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval9.5rose-gold": (
+  "oval9.5rose-goldsinglepolished": (
     <img src={IMAGES.Oval95RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval10rose-gold": (
+  "oval10rose-goldsinglepolished": (
     <img src={IMAGES.Oval10RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "oval2white-gold": (
+  "oval2white-goldsinglepolished": (
     <img src={IMAGES.Oval2WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval2.5white-gold": (
+  "oval2.5white-goldsinglepolished": (
     <img src={IMAGES.Oval25WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval3white-gold": (
+  "oval3white-goldsinglepolished": (
     <img src={IMAGES.Oval3WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval3.5white-gold": (
+  "oval3.5white-goldsinglepolished": (
     <img src={IMAGES.Oval35WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval4white-gold": (
+  "oval4white-goldsinglepolished": (
     <img src={IMAGES.Oval4WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval4.5white-gold": (
+  "oval4.5white-goldsinglepolished": (
     <img src={IMAGES.Oval45WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval5white-gold": (
+  "oval5white-goldsinglepolished": (
     <img src={IMAGES.Oval5WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval5.5white-gold": (
+  "oval5.5white-goldsinglepolished": (
     <img src={IMAGES.Oval55WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval6white-gold": (
+  "oval6white-goldsinglepolished": (
     <img src={IMAGES.Oval6WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval6.5white-gold": (
+  "oval6.5white-goldsinglepolished": (
     <img src={IMAGES.Oval65WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval7white-gold": (
+  "oval7white-goldsinglepolished": (
     <img src={IMAGES.Oval7WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval7.5white-gold": (
+  "oval7.5white-goldsinglepolished": (
     <img src={IMAGES.Oval75WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval8white-gold": (
+  "oval8white-goldsinglepolished": (
     <img src={IMAGES.Oval8WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval8.5white-gold": (
+  "oval8.5white-goldsinglepolished": (
     <img src={IMAGES.Oval85WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval9white-gold": (
+  "oval9white-goldsinglepolished": (
     <img src={IMAGES.Oval9WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval9.5white-gold": (
+  "oval9.5white-goldsinglepolished": (
     <img src={IMAGES.Oval95WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "oval10white-gold": (
+  "oval10white-goldsinglepolished": (
     <img src={IMAGES.Oval10WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse2yellow-gold": (
+  "elipse2yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse2YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse2.5yellow-gold": (
+  "elipse2.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse25YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse3yellow-gold": (
+  "elipse3yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse3YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse3.5yellow-gold": (
+  "elipse3.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse35YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse4yellow-gold": (
+  "elipse4yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse4YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse4.5yellow-gold": (
+  "elipse4.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse45YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse5yellow-gold": (
+  "elipse5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse5YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse5.5yellow-gold": (
+  "elipse5.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse55YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse6yellow-gold": (
+  "elipse6yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse6YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse6.5yellow-gold": (
+  "elipse6.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse65YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse7yellow-gold": (
+  "elipse7yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse7YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse7.5yellow-gold": (
+  "elipse7.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse75YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse8yellow-gold": (
+  "elipse8yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse8YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse8.5yellow-gold": (
+  "elipse8.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse85YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse9yellow-gold": (
+  "elipse9yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse9YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse9.5yellow-gold": (
+  "elipse9.5yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse95YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse10yellow-gold": (
+  "elipse10yellow-goldsinglepolished": (
     <img src={IMAGES.Elipse10YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse2rose-gold": (
+  "elipse2rose-goldsinglepolished": (
     <img src={IMAGES.Elipse2RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse2.5rose-gold": (
+  "elipse2.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse25RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse3rose-gold": (
+  "elipse3rose-goldsinglepolished": (
     <img src={IMAGES.Elipse3RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse3.5rose-gold": (
+  "elipse3.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse35RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse4rose-gold": (
+  "elipse4rose-goldsinglepolished": (
     <img src={IMAGES.Elipse4RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse4.5rose-gold": (
+  "elipse4.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse45RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse5rose-gold": (
+  "elipse5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse5RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse5.5rose-gold": (
+  "elipse5.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse55RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse6rose-gold": (
+  "elipse6rose-goldsinglepolished": (
     <img src={IMAGES.Elipse6RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse6.5rose-gold": (
+  "elipse6.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse65RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse7rose-gold": (
+  "elipse7rose-goldsinglepolished": (
     <img src={IMAGES.Elipse7RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse7.5rose-gold": (
+  "elipse7.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse75RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse8rose-gold": (
+  "elipse8rose-goldsinglepolished": (
     <img src={IMAGES.Elipse8RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse8.5rose-gold": (
+  "elipse8.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse85RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse9rose-gold": (
+  "elipse9rose-goldsinglepolished": (
     <img src={IMAGES.Elipse9RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse9.5rose-gold": (
+  "elipse9.5rose-goldsinglepolished": (
     <img src={IMAGES.Elipse95RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse10rose-gold": (
+  "elipse10rose-goldsinglepolished": (
     <img src={IMAGES.Elipse10RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse2white-gold": (
+  "elipse2white-goldsinglepolished": (
     <img src={IMAGES.Elipse2WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse2.5white-gold": (
+  "elipse2.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse25WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse3white-gold": (
+  "elipse3white-goldsinglepolished": (
     <img src={IMAGES.Elipse3WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse3.5white-gold": (
+  "elipse3.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse35WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse4white-gold": (
+  "elipse4white-goldsinglepolished": (
     <img src={IMAGES.Elipse4WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse4.5white-gold": (
+  "elipse4.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse45WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse5white-gold": (
+  "elipse5white-goldsinglepolished": (
     <img src={IMAGES.Elipse5WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse5.5white-gold": (
+  "elipse5.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse55WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse6white-gold": (
+  "elipse6white-goldsinglepolished": (
     <img src={IMAGES.Elipse6WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse6.5white-gold": (
+  "elipse6.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse65WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse7white-gold": (
+  "elipse7white-goldsinglepolished": (
     <img src={IMAGES.Elipse7WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse7.5white-gold": (
+  "elipse7.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse75WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse8white-gold": (
+  "elipse8white-goldsinglepolished": (
     <img src={IMAGES.Elipse8WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse8.5white-gold": (
+  "elipse8.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse85WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse9white-gold": (
+  "elipse9white-goldsinglepolished": (
     <img src={IMAGES.Elipse9WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse9.5white-gold": (
+  "elipse9.5white-goldsinglepolished": (
     <img src={IMAGES.Elipse95WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "elipse10white-gold": (
+  "elipse10white-goldsinglepolished": (
     <img src={IMAGES.Elipse10WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel2yellow-gold": (
+  "parabel2yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel2YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel2.5yellow-gold": (
+  "parabel2.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel25YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel3yellow-gold": (
+  "parabel3yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel3YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel3.5yellow-gold": (
+  "parabel3.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel35YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel4yellow-gold": (
+  "parabel4yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel4YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel4.5yellow-gold": (
+  "parabel4.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel45YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel5yellow-gold": (
+  "parabel5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel5YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel5.5yellow-gold": (
+  "parabel5.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel55YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel6yellow-gold": (
+  "parabel6yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel6YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel6.5yellow-gold": (
+  "parabel6.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel65YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel7yellow-gold": (
+  "parabel7yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel7YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel7.5yellow-gold": (
+  "parabel7.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel75YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel8yellow-gold": (
+  "parabel8yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel8YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel8.5yellow-gold": (
+  "parabel8.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel85YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel9yellow-gold": (
+  "parabel9yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel9YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel9.5yellow-gold": (
+  "parabel9.5yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel95YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel10yellow-gold": (
+  "parabel10yellow-goldsinglepolished": (
     <img src={IMAGES.Parabel10YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel2rose-gold": (
+  "parabel2rose-goldsinglepolished": (
     <img src={IMAGES.Parabel2RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel2.5rose-gold": (
+  "parabel2.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel25RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel3rose-gold": (
+  "parabel3rose-goldsinglepolished": (
     <img src={IMAGES.Parabel3RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel3.5rose-gold": (
+  "parabel3.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel35RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel4rose-gold": (
+  "parabel4rose-goldsinglepolished": (
     <img src={IMAGES.Parabel4RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel4.5rose-gold": (
+  "parabel4.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel45RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel5rose-gold": (
+  "parabel5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel5RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel5.5rose-gold": (
+  "parabel5.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel55RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel6rose-gold": (
+  "parabel6rose-goldsinglepolished": (
     <img src={IMAGES.Parabel6RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel6.5rose-gold": (
+  "parabel6.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel65RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel7rose-gold": (
+  "parabel7rose-goldsinglepolished": (
     <img src={IMAGES.Parabel7RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel7.5rose-gold": (
+  "parabel7.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel75RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel8rose-gold": (
+  "parabel8rose-goldsinglepolished": (
     <img src={IMAGES.Parabel8RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel8.5rose-gold": (
+  "parabel8.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel85RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel9rose-gold": (
+  "parabel9rose-goldsinglepolished": (
     <img src={IMAGES.Parabel9RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel9.5rose-gold": (
+  "parabel9.5rose-goldsinglepolished": (
     <img src={IMAGES.Parabel95RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel10rose-gold": (
+  "parabel10rose-goldsinglepolished": (
     <img src={IMAGES.Parabel10RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel2white-gold": (
+  "parabel2white-goldsinglepolished": (
     <img src={IMAGES.Parabel2WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel2.5white-gold": (
+  "parabel2.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel25WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel3white-gold": (
+  "parabel3white-goldsinglepolished": (
     <img src={IMAGES.Parabel3WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel3.5white-gold": (
+  "parabel3.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel35WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel4white-gold": (
+  "parabel4white-goldsinglepolished": (
     <img src={IMAGES.Parabel4WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel4.5white-gold": (
+  "parabel4.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel45WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel5white-gold": (
+  "parabel5white-goldsinglepolished": (
     <img src={IMAGES.Parabel5WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel5.5white-gold": (
+  "parabel5.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel55WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel6white-gold": (
+  "parabel6white-goldsinglepolished": (
     <img src={IMAGES.Parabel6WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel6.5white-gold": (
+  "parabel6.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel65WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel7white-gold": (
+  "parabel7white-goldsinglepolished": (
     <img src={IMAGES.Parabel7WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel7.5white-gold": (
+  "parabel7.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel75WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel8white-gold": (
+  "parabel8white-goldsinglepolished": (
     <img src={IMAGES.Parabel8WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel8.5white-gold": (
+  "parabel8.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel85WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel9white-gold": (
+  "parabel9white-goldsinglepolished": (
     <img src={IMAGES.Parabel9WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel9.5white-gold": (
+  "parabel9.5white-goldsinglepolished": (
     <img src={IMAGES.Parabel95WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "parabel10white-gold": (
+  "parabel10white-goldsinglepolished": (
     <img src={IMAGES.Parabel10WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut2yellow-gold": (
+  "sidecut2yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut2YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut2.5yellow-gold": (
+  "sidecut2.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut25YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut3yellow-gold": (
+  "sidecut3yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut3YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut3.5yellow-gold": (
+  "sidecut3.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut35YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut4yellow-gold": (
+  "sidecut4yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut4YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut4.5yellow-gold": (
+  "sidecut4.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut45YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut5yellow-gold": (
+  "sidecut5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut5YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut5.5yellow-gold": (
+  "sidecut5.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut55YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut6yellow-gold": (
+  "sidecut6yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut6YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut6.5yellow-gold": (
+  "sidecut6.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut65YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut7yellow-gold": (
+  "sidecut7yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut7YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut7.5yellow-gold": (
+  "sidecut7.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut75YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut8yellow-gold": (
+  "sidecut8yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut8YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut8.5yellow-gold": (
+  "sidecut8.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut85YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut9yellow-gold": (
+  "sidecut9yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut9YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut9.5yellow-gold": (
+  "sidecut9.5yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut95YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut10yellow-gold": (
+  "sidecut10yellow-goldsinglepolished": (
     <img src={IMAGES.Sidecut10YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut2rose-gold": (
+  "sidecut2rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut2RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut2.5rose-gold": (
+  "sidecut2.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut25RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut3rose-gold": (
+  "sidecut3rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut3RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut3.5rose-gold": (
+  "sidecut3.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut35RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut4rose-gold": (
+  "sidecut4rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut4RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut4.5rose-gold": (
+  "sidecut4.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut45RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut5rose-gold": (
+  "sidecut5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut5RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut5.5rose-gold": (
+  "sidecut5.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut55RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut6rose-gold": (
+  "sidecut6rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut6RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut6.5rose-gold": (
+  "sidecut6.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut65RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut7rose-gold": (
+  "sidecut7rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut7RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut7.5rose-gold": (
+  "sidecut7.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut75RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut8rose-gold": (
+  "sidecut8rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut8RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut8.5rose-gold": (
+  "sidecut8.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut85RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut9rose-gold": (
+  "sidecut9rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut9RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut9.5rose-gold": (
+  "sidecut9.5rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut95RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut10rose-gold": (
+  "sidecut10rose-goldsinglepolished": (
     <img src={IMAGES.Sidecut10RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut2white-gold": (
+  "sidecut2white-goldsinglepolished": (
     <img src={IMAGES.Sidecut2WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut2.5white-gold": (
+  "sidecut2.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut25WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut3white-gold": (
+  "sidecut3white-goldsinglepolished": (
     <img src={IMAGES.Sidecut3WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut3.5white-gold": (
+  "sidecut3.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut35WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut4white-gold": (
+  "sidecut4white-goldsinglepolished": (
     <img src={IMAGES.Sidecut4WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut4.5white-gold": (
+  "sidecut4.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut45WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut5white-gold": (
+  "sidecut5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut5WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut5.5white-gold": (
+  "sidecut5.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut55WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut6white-gold": (
+  "sidecut6white-goldsinglepolished": (
     <img src={IMAGES.Sidecut6WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut6.5white-gold": (
+  "sidecut6.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut65WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut7white-gold": (
+  "sidecut7white-goldsinglepolished": (
     <img src={IMAGES.Sidecut7WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut7.5white-gold": (
+  "sidecut7.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut75WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut8white-gold": (
+  "sidecut8white-goldsinglepolished": (
     <img src={IMAGES.Sidecut8WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut8.5white-gold": (
+  "sidecut8.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut85WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut9white-gold": (
+  "sidecut9white-goldsinglepolished": (
     <img src={IMAGES.Sidecut9WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut9.5white-gold": (
+  "sidecut9.5white-goldsinglepolished": (
     <img src={IMAGES.Sidecut95WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "sidecut10white-gold": (
+  "sidecut10white-goldsinglepolished": (
     <img src={IMAGES.Sidecut10WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar2yellow-gold": (
+  "planar2yellow-goldsinglepolished": (
     <img src={IMAGES.Planar2YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar2.5yellow-gold": (
+  "planar2.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar25YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar3yellow-gold": (
+  "planar3yellow-goldsinglepolished": (
     <img src={IMAGES.Planar3YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar3.5yellow-gold": (
+  "planar3.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar35YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar4yellow-gold": (
+  "planar4yellow-goldsinglepolished": (
     <img src={IMAGES.Planar4YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar4.5yellow-gold": (
+  "planar4.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar45YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar5yellow-gold": (
+  "planar5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar5YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar5.5yellow-gold": (
+  "planar5.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar55YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar6yellow-gold": (
+  "planar6yellow-goldsinglepolished": (
     <img src={IMAGES.Planar6YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar6.5yellow-gold": (
+  "planar6.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar65YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar7yellow-gold": (
+  "planar7yellow-goldsinglepolished": (
     <img src={IMAGES.Planar7YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar7.5yellow-gold": (
+  "planar7.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar75YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar8yellow-gold": (
+  "planar8yellow-goldsinglepolished": (
     <img src={IMAGES.Planar8YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar8.5yellow-gold": (
+  "planar8.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar85YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar9yellow-gold": (
+  "planar9yellow-goldsinglepolished": (
     <img src={IMAGES.Planar9YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar9.5yellow-gold": (
+  "planar9.5yellow-goldsinglepolished": (
     <img src={IMAGES.Planar95YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar10yellow-gold": (
+  "planar10yellow-goldsinglepolished": (
     <img src={IMAGES.Planar10YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "planar2rose-gold": (
+  "planar2rose-goldsinglepolished": (
     <img src={IMAGES.Planar2RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar2.5rose-gold": (
+  "planar2.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar25RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar3rose-gold": (
+  "planar3rose-goldsinglepolished": (
     <img src={IMAGES.Planar3RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar3.5rose-gold": (
+  "planar3.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar35RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar4rose-gold": (
+  "planar4rose-goldsinglepolished": (
     <img src={IMAGES.Planar4RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar4.5rose-gold": (
+  "planar4.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar45RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar5rose-gold": (
+  "planar5rose-goldsinglepolished": (
     <img src={IMAGES.Planar5RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar5.5rose-gold": (
+  "planar5.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar55RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar6rose-gold": (
+  "planar6rose-goldsinglepolished": (
     <img src={IMAGES.Planar6RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar6.5rose-gold": (
+  "planar6.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar65RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar7rose-gold": (
+  "planar7rose-goldsinglepolished": (
     <img src={IMAGES.Planar7RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar7.5rose-gold": (
+  "planar7.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar75RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar8rose-gold": (
+  "planar8rose-goldsinglepolished": (
     <img src={IMAGES.Planar8RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar8.5rose-gold": (
+  "planar8.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar85RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar9rose-gold": (
+  "planar9rose-goldsinglepolished": (
     <img src={IMAGES.Planar9RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar9.5rose-gold": (
+  "planar9.5rose-goldsinglepolished": (
     <img src={IMAGES.Planar95RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar10rose-gold": (
+  "planar10rose-goldsinglepolished": (
     <img src={IMAGES.Planar10RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "planar2white-gold": (
+  "planar2white-goldsinglepolished": (
     <img src={IMAGES.Planar2WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar2.5white-gold": (
+  "planar2.5white-goldsinglepolished": (
     <img src={IMAGES.Planar25WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar3white-gold": (
+  "planar3white-goldsinglepolished": (
     <img src={IMAGES.Planar3WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar3.5white-gold": (
+  "planar3.5white-goldsinglepolished": (
     <img src={IMAGES.Planar35WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar4white-gold": (
+  "planar4white-goldsinglepolished": (
     <img src={IMAGES.Planar4WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar4.5white-gold": (
+  "planar4.5white-goldsinglepolished": (
     <img src={IMAGES.Planar45WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar5white-gold": (
+  "planar5white-goldsinglepolished": (
     <img src={IMAGES.Planar5WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar5.5white-gold": (
+  "planar5.5white-goldsinglepolished": (
     <img src={IMAGES.Planar55WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar6white-gold": (
+  "planar6white-goldsinglepolished": (
     <img src={IMAGES.Planar6WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar6.5white-gold": (
+  "planar6.5white-goldsinglepolished": (
     <img src={IMAGES.Planar65WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar7white-gold": (
+  "planar7white-goldsinglepolished": (
     <img src={IMAGES.Planar7WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar7.5white-gold": (
+  "planar7.5white-goldsinglepolished": (
     <img src={IMAGES.Planar75WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar8white-gold": (
+  "planar8white-goldsinglepolished": (
     <img src={IMAGES.Planar8WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar8.5white-gold": (
+  "planar8.5white-goldsinglepolished": (
     <img src={IMAGES.Planar85WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar9white-gold": (
+  "planar9white-goldsinglepolished": (
     <img src={IMAGES.Planar9WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar9.5white-gold": (
+  "planar9.5white-goldsinglepolished": (
     <img src={IMAGES.Planar95WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "planar10white-gold": (
+  "planar10white-goldsinglepolished": (
     <img src={IMAGES.Planar10WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma2yellow-gold": (
+  "forma2yellow-goldsinglepolished": (
     <img src={IMAGES.Forma2YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma2.5yellow-gold": (
+  "forma2.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma25YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma3yellow-gold": (
+  "forma3yellow-goldsinglepolished": (
     <img src={IMAGES.Forma3YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma3.5yellow-gold": (
+  "forma3.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma35YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma4yellow-gold": (
+  "forma4yellow-goldsinglepolished": (
     <img src={IMAGES.Forma4YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma4.5yellow-gold": (
+  "forma4.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma45YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma5yellow-gold": (
+  "forma5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma5YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma5.5yellow-gold": (
+  "forma5.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma55YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma6yellow-gold": (
+  "forma6yellow-goldsinglepolished": (
     <img src={IMAGES.Forma6YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma6.5yellow-gold": (
+  "forma6.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma65YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma7yellow-gold": (
+  "forma7yellow-goldsinglepolished": (
     <img src={IMAGES.Forma7YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma7.5yellow-gold": (
+  "forma7.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma75YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma8yellow-gold": (
+  "forma8yellow-goldsinglepolished": (
     <img src={IMAGES.Forma8YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma8.5yellow-gold": (
+  "forma8.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma85YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma9yellow-gold": (
+  "forma9yellow-goldsinglepolished": (
     <img src={IMAGES.Forma9YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma9.5yellow-gold": (
+  "forma9.5yellow-goldsinglepolished": (
     <img src={IMAGES.Forma95YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma10yellow-gold": (
+  "forma10yellow-goldsinglepolished": (
     <img src={IMAGES.Forma10YellowGoldSinglePolished} alt="RingPair" />
   ),
-  "forma2rose-gold": (
+  "forma2rose-goldsinglepolished": (
     <img src={IMAGES.Forma2RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma2.5rose-gold": (
+  "forma2.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma25RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma3rose-gold": (
+  "forma3rose-goldsinglepolished": (
     <img src={IMAGES.Forma3RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma3.5rose-gold": (
+  "forma3.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma35RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma4rose-gold": (
+  "forma4rose-goldsinglepolished": (
     <img src={IMAGES.Forma4RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma4.5rose-gold": (
+  "forma4.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma45RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma5rose-gold": (
+  "forma5rose-goldsinglepolished": (
     <img src={IMAGES.Forma5RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma5.5rose-gold": (
+  "forma5.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma55RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma6rose-gold": (
+  "forma6rose-goldsinglepolished": (
     <img src={IMAGES.Forma6RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma6.5rose-gold": (
+  "forma6.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma65RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma7rose-gold": (
+  "forma7rose-goldsinglepolished": (
     <img src={IMAGES.Forma7RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma7.5rose-gold": (
+  "forma7.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma75RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma8rose-gold": (
+  "forma8rose-goldsinglepolished": (
     <img src={IMAGES.Forma8RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma8.5rose-gold": (
+  "forma8.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma85RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma9rose-gold": (
+  "forma9rose-goldsinglepolished": (
     <img src={IMAGES.Forma9RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma9.5rose-gold": (
+  "forma9.5rose-goldsinglepolished": (
     <img src={IMAGES.Forma95RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma10rose-gold": (
+  "forma10rose-goldsinglepolished": (
     <img src={IMAGES.Forma10RoseGoldSinglePolished} alt="RingPair" />
   ),
-  "forma2white-gold": (
+  "forma2white-goldsinglepolished": (
     <img src={IMAGES.Forma2WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma2.5white-gold": (
+  "forma2.5white-goldsinglepolished": (
     <img src={IMAGES.Forma25WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma3white-gold": (
+  "forma3white-goldsinglepolished": (
     <img src={IMAGES.Forma3WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma3.5white-gold": (
+  "forma3.5white-goldsinglepolished": (
     <img src={IMAGES.Forma35WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma4white-gold": (
+  "forma4white-goldsinglepolished": (
     <img src={IMAGES.Forma4WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma4.5white-gold": (
+  "forma4.5white-goldsinglepolished": (
     <img src={IMAGES.Forma45WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma5white-gold": (
+  "forma5white-goldsinglepolished": (
     <img src={IMAGES.Forma5WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma5.5white-gold": (
+  "forma5.5white-goldsinglepolished": (
     <img src={IMAGES.Forma55WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma6white-gold": (
+  "forma6white-goldsinglepolished": (
     <img src={IMAGES.Forma6WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma6.5white-gold": (
+  "forma6.5white-goldsinglepolished": (
     <img src={IMAGES.Forma65WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma7white-gold": (
+  "forma7white-goldsinglepolished": (
     <img src={IMAGES.Forma7WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma7.5white-gold": (
+  "forma7.5white-goldsinglepolished": (
     <img src={IMAGES.Forma75WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma8white-gold": (
+  "forma8white-goldsinglepolished": (
     <img src={IMAGES.Forma8WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma8.5white-gold": (
+  "forma8.5white-goldsinglepolished": (
     <img src={IMAGES.Forma85WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma9white-gold": (
+  "forma9white-goldsinglepolished": (
     <img src={IMAGES.Forma9WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma9.5white-gold": (
+  "forma9.5white-goldsinglepolished": (
     <img src={IMAGES.Forma95WhiteGoldSinglePolished} alt="RingPair" />
   ),
-  "forma10white-gold": (
+  "forma10white-goldsinglepolished": (
     <img src={IMAGES.Forma10WhiteGoldSinglePolished} alt="RingPair" />
+  ),
+  "oval2yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval2YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval2.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval25YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval3yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval3YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval3.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval35YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval4yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval4YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval4.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval45YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval5YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval5.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval55YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval6yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval6YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval6.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval65YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval7yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval7YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval7.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval75YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval8yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval8YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval8.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval85YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval9yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval9YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval9.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval95YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval10yellow-goldsinglesilk": (
+    <img src={IMAGES.Oval10YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval2rose-goldsinglesilk": (
+    <img src={IMAGES.Oval2RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval2.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval25RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval3rose-goldsinglesilk": (
+    <img src={IMAGES.Oval3RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval3.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval35RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval4rose-goldsinglesilk": (
+    <img src={IMAGES.Oval4RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval4.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval45RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval5RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval5.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval55RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval6rose-goldsinglesilk": (
+    <img src={IMAGES.Oval6RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval6.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval65RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval7rose-goldsinglesilk": (
+    <img src={IMAGES.Oval7RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval7.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval75RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval8rose-goldsinglesilk": (
+    <img src={IMAGES.Oval8RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval8.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval85RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval9rose-goldsinglesilk": (
+    <img src={IMAGES.Oval9RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval9.5rose-goldsinglesilk": (
+    <img src={IMAGES.Oval95RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval10rose-goldsinglesilk": (
+    <img src={IMAGES.Oval10RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval2white-goldsinglesilk": (
+    <img src={IMAGES.Oval2WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval2.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval25WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval3white-goldsinglesilk": (
+    <img src={IMAGES.Oval3WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval3.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval35WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval4white-goldsinglesilk": (
+    <img src={IMAGES.Oval4WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval4.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval45WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval5white-goldsinglesilk": (
+    <img src={IMAGES.Oval5WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval5.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval55WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval6white-goldsinglesilk": (
+    <img src={IMAGES.Oval6WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval6.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval65WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval7white-goldsinglesilk": (
+    <img src={IMAGES.Oval7WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval7.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval75WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval8white-goldsinglesilk": (
+    <img src={IMAGES.Oval8WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval8.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval85WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval9white-goldsinglesilk": (
+    <img src={IMAGES.Oval9WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval9.5white-goldsinglesilk": (
+    <img src={IMAGES.Oval95WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "oval10white-goldsinglesilk": (
+    <img src={IMAGES.Oval10WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse2yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse2YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse2.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse25YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse3yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse3YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse3.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse35YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse4yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse4YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse4.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse45YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse5YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse5.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse55YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse6yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse6YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse6.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse65YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse7yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse7YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse7.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse75YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse8yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse8YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse8.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse85YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse9yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse9YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse9.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse95YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse10yellow-goldsinglesilk": (
+    <img src={IMAGES.Elipse10YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse2rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse2RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse2.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse25RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse3rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse3RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse3.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse35RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse4rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse4RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse4.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse45RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse5RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse5.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse55RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse6rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse6RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse6.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse65RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse7rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse7RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse7.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse75RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse8rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse8RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse8.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse85RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse9rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse9RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse9.5rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse95RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse10rose-goldsinglesilk": (
+    <img src={IMAGES.Elipse10RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse2white-goldsinglesilk": (
+    <img src={IMAGES.Elipse2WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse2.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse25WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse3white-goldsinglesilk": (
+    <img src={IMAGES.Elipse3WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse3.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse35WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse4white-goldsinglesilk": (
+    <img src={IMAGES.Elipse4WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse4.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse45WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse5WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse5.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse55WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse6white-goldsinglesilk": (
+    <img src={IMAGES.Elipse6WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse6.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse65WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse7white-goldsinglesilk": (
+    <img src={IMAGES.Elipse7WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse7.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse75WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse8white-goldsinglesilk": (
+    <img src={IMAGES.Elipse8WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse8.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse85WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse9white-goldsinglesilk": (
+    <img src={IMAGES.Elipse9WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse9.5white-goldsinglesilk": (
+    <img src={IMAGES.Elipse95WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "elipse10white-goldsinglesilk": (
+    <img src={IMAGES.Elipse10WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel2yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel2YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel2.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel25YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel3yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel3YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel3.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel35YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel4yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel4YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel4.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel45YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel5YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel5.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel55YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel6yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel6YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel6.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel65YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel7yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel7YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel7.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel75YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel8yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel8YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel8.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel85YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel9yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel9YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel9.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel95YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel10yellow-goldsinglesilk": (
+    <img src={IMAGES.Parabel10YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel2rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel2RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel2.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel25RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel3rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel3RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel3.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel35RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel4rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel4RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel4.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel45RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel5RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel5.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel55RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel6rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel6RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel6.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel65RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel7rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel7RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel7.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel75RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel8rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel8RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel8.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel85RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel9rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel9RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel9.5rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel95RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel10rose-goldsinglesilk": (
+    <img src={IMAGES.Parabel10RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel2white-goldsinglesilk": (
+    <img src={IMAGES.Parabel2WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel2.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel25WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel3white-goldsinglesilk": (
+    <img src={IMAGES.Parabel3WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel3.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel35WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel4white-goldsinglesilk": (
+    <img src={IMAGES.Parabel4WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel4.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel45WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel5WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel5.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel55WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel6white-goldsinglesilk": (
+    <img src={IMAGES.Parabel6WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel6.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel65WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel7white-goldsinglesilk": (
+    <img src={IMAGES.Parabel7WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel7.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel75WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel8white-goldsinglesilk": (
+    <img src={IMAGES.Parabel8WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel8.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel85WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel9white-goldsinglesilk": (
+    <img src={IMAGES.Parabel9WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel9.5white-goldsinglesilk": (
+    <img src={IMAGES.Parabel95WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "parabel10white-goldsinglesilk": (
+    <img src={IMAGES.Parabel10WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut2yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut2YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut2.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut25YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut3yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut3YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut3.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut35YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut4yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut4YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut4.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut45YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut5YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut5.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut55YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut6yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut6YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut6.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut65YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut7yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut7YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut7.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut75YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut8yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut8YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut8.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut85YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut9yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut9YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut9.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut95YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut10yellow-goldsinglesilk": (
+    <img src={IMAGES.Sidecut10YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut2rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut2RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut2.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut25RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut3rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut3RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut3.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut35RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut4rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut4RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut4.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut45RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut5RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut5.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut55RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut6rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut6RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut6.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut65RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut7rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut7RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut7.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut75RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut8rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut8RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut8.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut85RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut9rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut9RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut9.5rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut95RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut10rose-goldsinglesilk": (
+    <img src={IMAGES.Sidecut10RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut2white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut2WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut2.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut25WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut3white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut3WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut3.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut35WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut4white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut4WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut4.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut45WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut5WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut5.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut55WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut6white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut6WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut6.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut65WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut7white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut7WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut7.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut75WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut8white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut8WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut8.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut85WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut9white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut9WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut9.5white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut95WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "sidecut10white-goldsinglesilk": (
+    <img src={IMAGES.Sidecut10WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar2yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar2YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar2.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar25YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar3yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar3YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar3.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar35YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar4yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar4YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar4.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar45YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar5YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar5.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar55YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar6yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar6YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar6.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar65YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar7yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar7YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar7.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar75YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar8yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar8YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar8.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar85YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar9yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar9YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar9.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar95YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar10yellow-goldsinglesilk": (
+    <img src={IMAGES.Planar10YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar2rose-goldsinglesilk": (
+    <img src={IMAGES.Planar2RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar2.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar25RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar3rose-goldsinglesilk": (
+    <img src={IMAGES.Planar3RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar3.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar35RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar4rose-goldsinglesilk": (
+    <img src={IMAGES.Planar4RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar4.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar45RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar5RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar5.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar55RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar6rose-goldsinglesilk": (
+    <img src={IMAGES.Planar6RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar6.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar65RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar7rose-goldsinglesilk": (
+    <img src={IMAGES.Planar7RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar7.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar75RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar8rose-goldsinglesilk": (
+    <img src={IMAGES.Planar8RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar8.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar85RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar9rose-goldsinglesilk": (
+    <img src={IMAGES.Planar9RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar9.5rose-goldsinglesilk": (
+    <img src={IMAGES.Planar95RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar10rose-goldsinglesilk": (
+    <img src={IMAGES.Planar10RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar2white-goldsinglesilk": (
+    <img src={IMAGES.Planar2WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar2.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar25WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar3white-goldsinglesilk": (
+    <img src={IMAGES.Planar3WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar3.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar35WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar4white-goldsinglesilk": (
+    <img src={IMAGES.Planar4WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar4.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar45WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar5white-goldsinglesilk": (
+    <img src={IMAGES.Planar5WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar5.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar55WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar6white-goldsinglesilk": (
+    <img src={IMAGES.Planar6WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar6.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar65WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar7white-goldsinglesilk": (
+    <img src={IMAGES.Planar7WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar7.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar75WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar8white-goldsinglesilk": (
+    <img src={IMAGES.Planar8WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar8.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar85WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar9white-goldsinglesilk": (
+    <img src={IMAGES.Planar9WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar9.5white-goldsinglesilk": (
+    <img src={IMAGES.Planar95WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "planar10white-goldsinglesilk": (
+    <img src={IMAGES.Planar10WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma2yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma2YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma2.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma25YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma3yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma3YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma3.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma35YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma4yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma4YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma4.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma45YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma5YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma5.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma55YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma6yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma6YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma6.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma65YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma7yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma7YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma7.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma75YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma8yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma8YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma8.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma85YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma9yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma9YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma9.5yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma95YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma10yellow-goldsinglesilk": (
+    <img src={IMAGES.Forma10YellowGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma2rose-goldsinglesilk": (
+    <img src={IMAGES.Forma2RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma2.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma25RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma3rose-goldsinglesilk": (
+    <img src={IMAGES.Forma3RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma3.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma35RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma4rose-goldsinglesilk": (
+    <img src={IMAGES.Forma4RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma4.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma45RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma5RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma5.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma55RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma6rose-goldsinglesilk": (
+    <img src={IMAGES.Forma6RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma6.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma65RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma7rose-goldsinglesilk": (
+    <img src={IMAGES.Forma7RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma7.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma75RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma8rose-goldsinglesilk": (
+    <img src={IMAGES.Forma8RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma8.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma85RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma9rose-goldsinglesilk": (
+    <img src={IMAGES.Forma9RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma9.5rose-goldsinglesilk": (
+    <img src={IMAGES.Forma95RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma10rose-goldsinglesilk": (
+    <img src={IMAGES.Forma10RoseGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma2white-goldsinglesilk": (
+    <img src={IMAGES.Forma2WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma2.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma25WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma3white-goldsinglesilk": (
+    <img src={IMAGES.Forma3WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma3.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma35WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma4white-goldsinglesilk": (
+    <img src={IMAGES.Forma4WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma4.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma45WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma5white-goldsinglesilk": (
+    <img src={IMAGES.Forma5WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma5.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma55WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma6white-goldsinglesilk": (
+    <img src={IMAGES.Forma6WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma6.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma65WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma7white-goldsinglesilk": (
+    <img src={IMAGES.Forma7WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma7.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma75WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma8white-goldsinglesilk": (
+    <img src={IMAGES.Forma8WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma8.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma85WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma9white-goldsinglesilk": (
+    <img src={IMAGES.Forma9WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma9.5white-goldsinglesilk": (
+    <img src={IMAGES.Forma95WhiteGoldSingleSilk} alt="RingPair" />
+  ),
+  "forma10white-goldsinglesilk": (
+    <img src={IMAGES.Forma10WhiteGoldSingleSilk} alt="RingPair" />
   ),
 };
 
@@ -970,7 +1888,7 @@ class RingPair extends Component {
       <div className="ring-pair-container">
         {
           IMAGESCOMB[
-            `${this.state.profile}${this.state.measure}${this.state.color}`
+            `${this.state.profile}${this.state.measure}${this.state.color}${this.state.alocation}${this.state.surface}`
           ]
         }
         <div className="ring-profile-select">
