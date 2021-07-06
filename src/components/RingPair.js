@@ -1860,6 +1860,924 @@ const IMAGESCOMB = {
   "forma10white-goldsinglesilk": (
     <img src={IMAGES.Forma10WhiteGoldSingleSilk} alt="RingPair" />
   ),
+  "oval2yellow-goldsinglesand": (
+    <img src={IMAGES.Oval2YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval2.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval25YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval3yellow-goldsinglesand": (
+    <img src={IMAGES.Oval3YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval3.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval35YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval4yellow-goldsinglesand": (
+    <img src={IMAGES.Oval4YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval4.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval45YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval5YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval5.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval55YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval6yellow-goldsinglesand": (
+    <img src={IMAGES.Oval6YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval6.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval65YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval7yellow-goldsinglesand": (
+    <img src={IMAGES.Oval7YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval7.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval75YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval8yellow-goldsinglesand": (
+    <img src={IMAGES.Oval8YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval8.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval85YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval9yellow-goldsinglesand": (
+    <img src={IMAGES.Oval9YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval9.5yellow-goldsinglesand": (
+    <img src={IMAGES.Oval95YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval10yellow-goldsinglesand": (
+    <img src={IMAGES.Oval10YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "oval2rose-goldsinglesand": (
+    <img src={IMAGES.Oval2RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval2.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval25RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval3rose-goldsinglesand": (
+    <img src={IMAGES.Oval3RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval3.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval35RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval4rose-goldsinglesand": (
+    <img src={IMAGES.Oval4RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval4.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval45RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval5rose-goldsinglesand": (
+    <img src={IMAGES.Oval5RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval5.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval55RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval6rose-goldsinglesand": (
+    <img src={IMAGES.Oval6RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval6.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval65RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval7rose-goldsinglesand": (
+    <img src={IMAGES.Oval7RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval7.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval75RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval8rose-goldsinglesand": (
+    <img src={IMAGES.Oval8RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval8.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval85RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval9rose-goldsinglesand": (
+    <img src={IMAGES.Oval9RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval9.5rose-goldsinglesand": (
+    <img src={IMAGES.Oval95RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval10rose-goldsinglesand": (
+    <img src={IMAGES.Oval10RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "oval2white-goldsinglesand": (
+    <img src={IMAGES.Oval2WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval2.5white-goldsinglesand": (
+    <img src={IMAGES.Oval25WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval3white-goldsinglesand": (
+    <img src={IMAGES.Oval3WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval3.5white-goldsinglesand": (
+    <img src={IMAGES.Oval35WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval4white-goldsinglesand": (
+    <img src={IMAGES.Oval4WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval4.5white-goldsinglesand": (
+    <img src={IMAGES.Oval45WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval5white-goldsinglesand": (
+    <img src={IMAGES.Oval5WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval5.5white-goldsinglesand": (
+    <img src={IMAGES.Oval55WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval6white-goldsinglesand": (
+    <img src={IMAGES.Oval6WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval6.5white-goldsinglesand": (
+    <img src={IMAGES.Oval65WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval7white-goldsinglesand": (
+    <img src={IMAGES.Oval7WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval7.5white-goldsinglesand": (
+    <img src={IMAGES.Oval75WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval8white-goldsinglesand": (
+    <img src={IMAGES.Oval8WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval8.5white-goldsinglesand": (
+    <img src={IMAGES.Oval85WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval9white-goldsinglesand": (
+    <img src={IMAGES.Oval9WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval9.5white-goldsinglesand": (
+    <img src={IMAGES.Oval95WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "oval10white-goldsinglesand": (
+    <img src={IMAGES.Oval10WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse2yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse2YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse2.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse25YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse3yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse3YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse3.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse35YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse4yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse4YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse4.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse45YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse5YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse5.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse55YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse6yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse6YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse6.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse65YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse7yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse7YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse7.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse75YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse8yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse8YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse8.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse85YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse9yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse9YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse9.5yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse95YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse10yellow-goldsinglesand": (
+    <img src={IMAGES.Elipse10YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse2rose-goldsinglesand": (
+    <img src={IMAGES.Elipse2RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse2.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse25RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse3rose-goldsinglesand": (
+    <img src={IMAGES.Elipse3RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse3.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse35RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse4rose-goldsinglesand": (
+    <img src={IMAGES.Elipse4RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse4.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse45RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse5RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse5.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse55RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse6rose-goldsinglesand": (
+    <img src={IMAGES.Elipse6RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse6.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse65RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse7rose-goldsinglesand": (
+    <img src={IMAGES.Elipse7RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse7.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse75RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse8rose-goldsinglesand": (
+    <img src={IMAGES.Elipse8RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse8.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse85RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse9rose-goldsinglesand": (
+    <img src={IMAGES.Elipse9RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse9.5rose-goldsinglesand": (
+    <img src={IMAGES.Elipse95RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse10rose-goldsinglesand": (
+    <img src={IMAGES.Elipse10RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse2white-goldsinglesand": (
+    <img src={IMAGES.Elipse2WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse2.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse25WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse3white-goldsinglesand": (
+    <img src={IMAGES.Elipse3WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse3.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse35WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse4white-goldsinglesand": (
+    <img src={IMAGES.Elipse4WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse4.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse45WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse5white-goldsinglesand": (
+    <img src={IMAGES.Elipse5WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse5.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse55WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse6white-goldsinglesand": (
+    <img src={IMAGES.Elipse6WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse6.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse65WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse7white-goldsinglesand": (
+    <img src={IMAGES.Elipse7WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse7.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse75WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse8white-goldsinglesand": (
+    <img src={IMAGES.Elipse8WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse8.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse85WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse9white-goldsinglesand": (
+    <img src={IMAGES.Elipse9WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse9.5white-goldsinglesand": (
+    <img src={IMAGES.Elipse95WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "elipse10white-goldsinglesand": (
+    <img src={IMAGES.Elipse10WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel2yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel2YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel2.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel25YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel3yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel3YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel3.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel35YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel4yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel4YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel4.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel45YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel5YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel5.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel55YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel6yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel6YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel6.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel65YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel7yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel7YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel7.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel75YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel8yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel8YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel8.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel85YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel9yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel9YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel9.5yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel95YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel10yellow-goldsinglesand": (
+    <img src={IMAGES.Parabel10YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel2rose-goldsinglesand": (
+    <img src={IMAGES.Parabel2RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel2.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel25RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel3rose-goldsinglesand": (
+    <img src={IMAGES.Parabel3RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel3.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel35RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel4rose-goldsinglesand": (
+    <img src={IMAGES.Parabel4RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel4.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel45RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel5RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel5.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel55RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel6rose-goldsinglesand": (
+    <img src={IMAGES.Parabel6RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel6.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel65RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel7rose-goldsinglesand": (
+    <img src={IMAGES.Parabel7RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel7.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel75RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel8rose-goldsinglesand": (
+    <img src={IMAGES.Parabel8RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel8.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel85RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel9rose-goldsinglesand": (
+    <img src={IMAGES.Parabel9RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel9.5rose-goldsinglesand": (
+    <img src={IMAGES.Parabel95RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel10rose-goldsinglesand": (
+    <img src={IMAGES.Parabel10RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel2white-goldsinglesand": (
+    <img src={IMAGES.Parabel2WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel2.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel25WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel3white-goldsinglesand": (
+    <img src={IMAGES.Parabel3WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel3.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel35WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel4white-goldsinglesand": (
+    <img src={IMAGES.Parabel4WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel4.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel45WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel5white-goldsinglesand": (
+    <img src={IMAGES.Parabel5WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel5.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel55WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel6white-goldsinglesand": (
+    <img src={IMAGES.Parabel6WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel6.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel65WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel7white-goldsinglesand": (
+    <img src={IMAGES.Parabel7WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel7.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel75WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel8white-goldsinglesand": (
+    <img src={IMAGES.Parabel8WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel8.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel85WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel9white-goldsinglesand": (
+    <img src={IMAGES.Parabel9WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel9.5white-goldsinglesand": (
+    <img src={IMAGES.Parabel95WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "parabel10white-goldsinglesand": (
+    <img src={IMAGES.Parabel10WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut2yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut2YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut2.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut25YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut3yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut3YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut3.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut35YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut4yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut4YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut4.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut45YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut5YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut5.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut55YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut6yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut6YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut6.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut65YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut7yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut7YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut7.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut75YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut8yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut8YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut8.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut85YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut9yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut9YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut9.5yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut95YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut10yellow-goldsinglesand": (
+    <img src={IMAGES.Sidecut10YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut2rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut2RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut2.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut25RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut3rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut3RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut3.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut35RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut4rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut4RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut4.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut45RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut5RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut5.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut55RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut6rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut6RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut6.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut65RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut7rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut7RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut7.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut75RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut8rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut8RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut8.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut85RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut9rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut9RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut9.5rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut95RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut10rose-goldsinglesand": (
+    <img src={IMAGES.Sidecut10RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut2white-goldsinglesand": (
+    <img src={IMAGES.Sidecut2WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut2.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut25WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut3white-goldsinglesand": (
+    <img src={IMAGES.Sidecut3WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut3.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut35WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut4white-goldsinglesand": (
+    <img src={IMAGES.Sidecut4WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut4.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut45WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut5WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut5.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut55WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut6white-goldsinglesand": (
+    <img src={IMAGES.Sidecut6WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut6.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut65WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut7white-goldsinglesand": (
+    <img src={IMAGES.Sidecut7WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut7.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut75WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut8white-goldsinglesand": (
+    <img src={IMAGES.Sidecut8WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut8.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut85WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut9white-goldsinglesand": (
+    <img src={IMAGES.Sidecut9WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut9.5white-goldsinglesand": (
+    <img src={IMAGES.Sidecut95WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "sidecut10white-goldsinglesand": (
+    <img src={IMAGES.Sidecut10WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar2yellow-goldsinglesand": (
+    <img src={IMAGES.Planar2YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar2.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar25YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar3yellow-goldsinglesand": (
+    <img src={IMAGES.Planar3YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar3.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar35YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar4yellow-goldsinglesand": (
+    <img src={IMAGES.Planar4YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar4.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar45YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar5YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar5.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar55YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar6yellow-goldsinglesand": (
+    <img src={IMAGES.Planar6YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar6.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar65YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar7yellow-goldsinglesand": (
+    <img src={IMAGES.Planar7YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar7.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar75YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar8yellow-goldsinglesand": (
+    <img src={IMAGES.Planar8YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar8.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar85YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar9yellow-goldsinglesand": (
+    <img src={IMAGES.Planar9YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar9.5yellow-goldsinglesand": (
+    <img src={IMAGES.Planar95YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar10yellow-goldsinglesand": (
+    <img src={IMAGES.Planar10YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "planar2rose-goldsinglesand": (
+    <img src={IMAGES.Planar2RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar2.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar25RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar3rose-goldsinglesand": (
+    <img src={IMAGES.Planar3RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar3.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar35RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar4rose-goldsinglesand": (
+    <img src={IMAGES.Planar4RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar4.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar45RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar5rose-goldsinglesand": (
+    <img src={IMAGES.Planar5RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar5.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar55RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar6rose-goldsinglesand": (
+    <img src={IMAGES.Planar6RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar6.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar65RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar7rose-goldsinglesand": (
+    <img src={IMAGES.Planar7RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar7.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar75RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar8rose-goldsinglesand": (
+    <img src={IMAGES.Planar8RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar8.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar85RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar9rose-goldsinglesand": (
+    <img src={IMAGES.Planar9RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar9.5rose-goldsinglesand": (
+    <img src={IMAGES.Planar95RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar10rose-goldsinglesand": (
+    <img src={IMAGES.Planar10RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "planar2white-goldsinglesand": (
+    <img src={IMAGES.Planar2WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar2.5white-goldsinglesand": (
+    <img src={IMAGES.Planar25WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar3white-goldsinglesand": (
+    <img src={IMAGES.Planar3WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar3.5white-goldsinglesand": (
+    <img src={IMAGES.Planar35WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar4white-goldsinglesand": (
+    <img src={IMAGES.Planar4WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar4.5white-goldsinglesand": (
+    <img src={IMAGES.Planar45WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar5white-goldsinglesand": (
+    <img src={IMAGES.Planar5WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar5.5white-goldsinglesand": (
+    <img src={IMAGES.Planar55WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar6white-goldsinglesand": (
+    <img src={IMAGES.Planar6WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar6.5white-goldsinglesand": (
+    <img src={IMAGES.Planar65WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar7white-goldsinglesand": (
+    <img src={IMAGES.Planar7WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar7.5white-goldsinglesand": (
+    <img src={IMAGES.Planar75WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar8white-goldsinglesand": (
+    <img src={IMAGES.Planar8WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar8.5white-goldsinglesand": (
+    <img src={IMAGES.Planar85WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar9white-goldsinglesand": (
+    <img src={IMAGES.Planar9WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar9.5white-goldsinglesand": (
+    <img src={IMAGES.Planar95WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "planar10white-goldsinglesand": (
+    <img src={IMAGES.Planar10WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma2yellow-goldsinglesand": (
+    <img src={IMAGES.Forma2YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma2.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma25YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma3yellow-goldsinglesand": (
+    <img src={IMAGES.Forma3YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma3.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma35YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma4yellow-goldsinglesand": (
+    <img src={IMAGES.Forma4YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma4.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma45YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma5YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma5.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma55YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma6yellow-goldsinglesand": (
+    <img src={IMAGES.Forma6YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma6.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma65YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma7yellow-goldsinglesand": (
+    <img src={IMAGES.Forma7YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma7.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma75YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma8yellow-goldsinglesand": (
+    <img src={IMAGES.Forma8YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma8.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma85YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma9yellow-goldsinglesand": (
+    <img src={IMAGES.Forma9YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma9.5yellow-goldsinglesand": (
+    <img src={IMAGES.Forma95YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma10yellow-goldsinglesand": (
+    <img src={IMAGES.Forma10YellowGoldSingleSand} alt="RingPair" />
+  ),
+  "forma2rose-goldsinglesand": (
+    <img src={IMAGES.Forma2RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma2.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma25RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma3rose-goldsinglesand": (
+    <img src={IMAGES.Forma3RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma3.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma35RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma4rose-goldsinglesand": (
+    <img src={IMAGES.Forma4RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma4.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma45RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma5rose-goldsinglesand": (
+    <img src={IMAGES.Forma5RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma5.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma55RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma6rose-goldsinglesand": (
+    <img src={IMAGES.Forma6RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma6.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma65RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma7rose-goldsinglesand": (
+    <img src={IMAGES.Forma7RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma7.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma75RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma8rose-goldsinglesand": (
+    <img src={IMAGES.Forma8RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma8.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma85RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma9rose-goldsinglesand": (
+    <img src={IMAGES.Forma9RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma9.5rose-goldsinglesand": (
+    <img src={IMAGES.Forma95RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma10rose-goldsinglesand": (
+    <img src={IMAGES.Forma10RoseGoldSingleSand} alt="RingPair" />
+  ),
+  "forma2white-goldsinglesand": (
+    <img src={IMAGES.Forma2WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma2.5white-goldsinglesand": (
+    <img src={IMAGES.Forma25WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma3white-goldsinglesand": (
+    <img src={IMAGES.Forma3WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma3.5white-goldsinglesand": (
+    <img src={IMAGES.Forma35WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma4white-goldsinglesand": (
+    <img src={IMAGES.Forma4WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma4.5white-goldsinglesand": (
+    <img src={IMAGES.Forma45WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma5white-goldsinglesand": (
+    <img src={IMAGES.Forma5WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma5.5white-goldsinglesand": (
+    <img src={IMAGES.Forma55WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma6white-goldsinglesand": (
+    <img src={IMAGES.Forma6WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma6.5white-goldsinglesand": (
+    <img src={IMAGES.Forma65WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma7white-goldsinglesand": (
+    <img src={IMAGES.Forma7WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma7.5white-goldsinglesand": (
+    <img src={IMAGES.Forma75WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma8white-goldsinglesand": (
+    <img src={IMAGES.Forma8WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma8.5white-goldsinglesand": (
+    <img src={IMAGES.Forma85WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma9white-goldsinglesand": (
+    <img src={IMAGES.Forma9WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma9.5white-goldsinglesand": (
+    <img src={IMAGES.Forma95WhiteGoldSingleSand} alt="RingPair" />
+  ),
+  "forma10white-goldsinglesand": (
+    <img src={IMAGES.Forma10WhiteGoldSingleSand} alt="RingPair" />
+  ),
 };
 
 class RingPair extends Component {
