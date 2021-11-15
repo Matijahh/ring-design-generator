@@ -15,15 +15,15 @@ class ColorMaterialModal extends Component {
           >
             <div
               className={`color-tab white-gold-color`}
-              onClick={() => this.props.onChangeColor("white-gold")}
+              onClick={() => this.props.onChangeColor("white")}
             ></div>
             <div
               className={`color-tab yellow-gold-color`}
-              onClick={() => this.props.onChangeColor("yellow-gold")}
+              onClick={() => this.props.onChangeColor("yellow")}
             ></div>
             <div
               className={`color-tab rose-gold-color`}
-              onClick={() => this.props.onChangeColor("rose-gold")}
+              onClick={() => this.props.onChangeColor("rose")}
             ></div>
           </div>
         </div>
