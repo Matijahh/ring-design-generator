@@ -15,13 +15,13 @@ class Sidebar extends Component {
           >
             <img src={RingWithDiamond} alt="Prsten 1" /> Prsten 1
           </NavLink>
-          <NavLink
+          {/* <NavLink
             to="/one-ring"
             className="sidebar-tab"
             activeClassName="is-active"
           >
             <img src={RingWithDiamond} alt="Prsten 2" /> Prsten 2
-          </NavLink>
+          </NavLink> */}
         </div>
       </React.Fragment>
     );

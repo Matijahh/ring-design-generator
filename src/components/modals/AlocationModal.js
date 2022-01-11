@@ -26,25 +26,22 @@ class AlocationModal extends Component {
             style={{ margin: "0 auto" }}
           />
         </div>
-        <div
-          className="single-colored"
-          style={{ border: "none", paddingBottom: 0 }}
-        >
+        <div className="single-colored" style={{ paddingBottom: 0 }}>
           <span>Dvobojni</span>
           <img
             src={BiColored1}
             alt="alocation-tab"
             onClick={() => this.props.onChangeAlocation("bi-1")}
-            style={{ marginRight: 0 }}
+            style={{ margin: "0 auto" }}
           />
-          <img
+          {/* <img
             src={BiColored2}
             alt="alocation-tab"
             onClick={() => this.props.onChangeAlocation("bi-2")}
             style={{ margin: 0 }}
-          />
+          /> */}
         </div>
-        <div
+        {/* <div
           className="single-colored"
           style={{ paddingLeft: 150, paddingTop: 0, paddingBottom: 0 }}
         >
@@ -60,7 +57,7 @@ class AlocationModal extends Component {
             onClick={() => this.props.onChangeAlocation("bi-4")}
             style={{ margin: 0 }}
           />
-        </div>
+        </div> */}
         <div
           className="single-colored"
           style={{ border: "none", paddingBottom: 0 }}
@@ -70,16 +67,16 @@ class AlocationModal extends Component {
             src={TriColored1}
             alt="alocation-tab"
             onClick={() => this.props.onChangeAlocation("tri-1")}
-            style={{ marginRight: 0 }}
+            style={{ margin: "0 auto" }}
           />
-          <img
+          {/* <img
             src={TriColored2}
             alt="alocation-tab"
             onClick={() => this.props.onChangeAlocation("tri-2")}
             style={{ margin: 0 }}
-          />
+          /> */}
         </div>
-        <div
+        {/* <div
           className="single-colored"
           style={{
             border: "none",
@@ -106,8 +103,8 @@ class AlocationModal extends Component {
             onClick={() => this.props.onChangeAlocation("tri-5")}
             style={{ margin: 0 }}
           />
-        </div>
-        <div
+        </div> */}
+        {/* <div
           className="single-colored"
           style={{ paddingLeft: 0, paddingTop: 0, paddingBottom: 0 }}
         >
@@ -129,7 +126,7 @@ class AlocationModal extends Component {
             onClick={() => this.props.onChangeAlocation("tri-8")}
             style={{ margin: 0 }}
           />
-        </div>
+        </div> */}
       </div>
     );
   }
