@@ -18,10 +18,16 @@ const options = [
   // { value: "forma", label: "Formalni" },
 ];
 
+const seamOptionsSingle = [
+  { value: "seamless", label: "Bez poruba", disabled: false },
+  { value: "v-seam", label: "V-Porub", disabled: true },
+  { value: "u-seam", label: "U-Porub", disabled: true },
+];
+
 const seamOptions = [
-  // { value: "seamless", label: "Bez poruba" },
-  { value: "v-seam", label: "V-Porub" },
-  { value: "u-seam", label: "U-Porub" },
+  { value: "seamless", label: "Bez poruba", disabled: true },
+  { value: "v-seam", label: "V-Porub", disabled: false },
+  { value: "u-seam", label: "U-Porub", disabled: false },
 ];
 
 class RingPair extends Component {
@@ -29,17 +35,17 @@ class RingPair extends Component {
     super(props);
     this.state = {
       profile: "oval",
-      color: "rose",
+      color: "white",
       color2: "white",
       color3: "white",
       measure: 3,
       size: 45,
-      surface: "ice",
-      surface2: "ice",
+      surface: "polished",
+      surface2: "polished",
       surface3: "polished",
-      seam: "v-seam",
+      seam: "seamless",
       alocationModal: false,
-      alocation: "bi-1",
+      alocation: "single",
       colorMaterialModal1: false,
       colorMaterialModal2: false,
       colorMaterialModal3: false,
@@ -48,18 +54,46 @@ class RingPair extends Component {
 
   render() {
     let ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
-    try {
-      ringImage = (
-        <img
-          src={
-            require(`../assets/images/b-1/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-${this.state.color2}-gold-bi-1-${this.state.surface}-${this.state.surface2}-${this.state.seam}.jpg`)
-              .default
-          }
-          alt="RingOne"
-        />
-      );
-    } catch {
-      ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+    if (this.state.alocation === "single") {
+      try {
+        ringImage = (
+          <img
+            src={
+              require(`../assets/images/single/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-single-${this.state.surface}.jpg`)
+                .default
+            }
+            alt="RingOne"
+          />
+        );
+      } catch {
+        ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+      }
+    } else {
+      try {
+        if (this.state.color === this.state.color2) {
+          ringImage = (
+            <img
+              src={
+                require(`../assets/images/single/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-single-${this.state.surface}.jpg`)
+                  .default
+              }
+              alt="RingOne"
+            />
+          );
+        } else {
+          ringImage = (
+            <img
+              src={
+                require(`../assets/images/b-1/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-${this.state.color2}-gold-bi-1-${this.state.surface}-${this.state.surface2}-${this.state.seam}.jpg`)
+                  .default
+              }
+              alt="RingOne"
+            />
+          );
+        }
+      } catch {
+        ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+      }
     }
     return (
       <div className="ring-pair-container">
@@ -170,12 +204,20 @@ class RingPair extends Component {
                         colorMaterialModal1: false,
                       })
                     }
-                    onChangeMaterial={(material) =>
-                      this.setState({
-                        surface: material,
-                        colorMaterialModal1: false,
-                      })
-                    }
+                    onChangeMaterial={(material) => {
+                      if (material === "rock") {
+                        this.setState({
+                          surface: material,
+                          surface2: material,
+                          colorMaterialModal1: false,
+                        });
+                      } else {
+                        this.setState({
+                          surface: material,
+                          colorMaterialModal1: false,
+                        });
+                      }
+                    }}
                   />
                 )}
                 <span>1</span>
@@ -200,12 +242,20 @@ class RingPair extends Component {
                           colorMaterialModal2: false,
                         })
                       }
-                      onChangeMaterial={(material) =>
-                        this.setState({
-                          surface2: material,
-                          colorMaterialModal2: false,
-                        })
-                      }
+                      onChangeMaterial={(material) => {
+                        if (material === "rock") {
+                          this.setState({
+                            surface: material,
+                            surface2: material,
+                            colorMaterialModal2: false,
+                          });
+                        } else {
+                          this.setState({
+                            surface2: material,
+                            colorMaterialModal2: false,
+                          });
+                        }
+                      }}
                     />
                   )}
                   <span>2</span>
@@ -257,12 +307,17 @@ class RingPair extends Component {
             <div style={{ width: "100%" }}>
               <Select
                 className="ring-profile-select-select"
-                options={seamOptions}
+                options={
+                  this.state.alocation === "single"
+                    ? seamOptionsSingle
+                    : seamOptions
+                }
+                isOptionDisabled={(option) => option.disabled}
                 isClearable
                 placeholder="Izaberi..."
-                defaultValue={{ value: "v-seam", label: "V-Porub" }}
+                defaultValue={seamOptions[this.state.seam]}
                 onChange={(e) =>
-                  this.setState({ seam: e ? e.value : "v-seam" })
+                  this.setState({ seam: e ? e.value : "seamless" })
                 }
               />
             </div>
@@ -273,15 +328,27 @@ class RingPair extends Component {
           >
             {this.state.alocationModal && (
               <AlocationModal
-                onChangeAlocation={(alocation) =>
-                  this.setState({
-                    colorMaterialModal1: false,
-                    colorMaterialModal2: false,
-                    colorMaterialModal3: false,
-                    alocation: alocation,
-                    alocationModal: !this.state.alocationModal,
-                  })
-                }
+                onChangeAlocation={(alocation) => {
+                  if (alocation === "single") {
+                    this.setState({
+                      colorMaterialModal1: false,
+                      colorMaterialModal2: false,
+                      colorMaterialModal3: false,
+                      alocation: alocation,
+                      seam: "seamless",
+                      alocationModal: !this.state.alocationModal,
+                    });
+                  } else {
+                    this.setState({
+                      colorMaterialModal1: false,
+                      colorMaterialModal2: false,
+                      colorMaterialModal3: false,
+                      alocation: alocation,
+                      seam: "v-seam",
+                      alocationModal: !this.state.alocationModal,
+                    });
+                  }
+                }}
               />
             )}
             <span
