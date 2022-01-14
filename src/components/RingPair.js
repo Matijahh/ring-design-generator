@@ -198,12 +198,20 @@ class RingPair extends Component {
               >
                 {this.state.colorMaterialModal1 && (
                   <ColorMaterialModal
-                    onChangeColor={(color) =>
-                      this.setState({
-                        color: color,
-                        colorMaterialModal1: false,
-                      })
-                    }
+                    onChangeColor={(color) => {
+                      if (color === this.state.color2) {
+                        this.setState({
+                          alocation: "single",
+                          color: color,
+                          colorMaterialModal1: false,
+                        });
+                      } else {
+                        this.setState({
+                          color: color,
+                          colorMaterialModal1: false,
+                        });
+                      }
+                    }}
                     onChangeMaterial={(material) => {
                       if (material === "rock") {
                         this.setState({
@@ -236,12 +244,20 @@ class RingPair extends Component {
                 >
                   {this.state.colorMaterialModal2 && (
                     <ColorMaterialModal
-                      onChangeColor={(color) =>
-                        this.setState({
-                          color2: color,
-                          colorMaterialModal2: false,
-                        })
-                      }
+                      onChangeColor={(color) => {
+                        if (color === this.state.color) {
+                          this.setState({
+                            alocation: "single",
+                            color: color,
+                            colorMaterialModal2: false,
+                          });
+                        } else {
+                          this.setState({
+                            color2: color,
+                            colorMaterialModal2: false,
+                          });
+                        }
+                      }}
                       onChangeMaterial={(material) => {
                         if (material === "rock") {
                           this.setState({
@@ -305,21 +321,31 @@ class RingPair extends Component {
           >
             <span className="ring-profile-select-span">Porub Prstena:</span>
             <div style={{ width: "100%" }}>
-              <Select
-                className="ring-profile-select-select"
-                options={
-                  this.state.alocation === "single"
-                    ? seamOptionsSingle
-                    : seamOptions
-                }
-                isOptionDisabled={(option) => option.disabled}
-                isClearable
-                placeholder="Izaberi..."
-                defaultValue={seamOptions[this.state.seam]}
-                onChange={(e) =>
-                  this.setState({ seam: e ? e.value : "seamless" })
-                }
-              />
+              {this.state.alocation === "single" ? (
+                <Select
+                  className="ring-profile-select-select"
+                  options={seamOptionsSingle}
+                  isOptionDisabled={(option) => option.disabled}
+                  isClearable
+                  placeholder="Izaberi..."
+                  defaultValue={{ value: "seamless", label: "Bez Poruba" }}
+                  onChange={(e) =>
+                    this.setState({ seam: e ? e.value : "seamless" })
+                  }
+                />
+              ) : (
+                <Select
+                  className="ring-profile-select-select"
+                  options={seamOptions}
+                  isOptionDisabled={(option) => option.disabled}
+                  isClearable
+                  placeholder="Izaberi..."
+                  defaultValue={{ value: "v-seam", label: "V-Porub" }}
+                  onChange={(e) =>
+                    this.setState({ seam: e ? e.value : "v-seam" })
+                  }
+                />
+              )}
             </div>
           </div>
           <div
