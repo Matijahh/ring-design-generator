@@ -8,6 +8,7 @@ import Logo from "../assets/images/logo-condensed.png";
 
 import AlocationModal from "./modals/AlocationModal";
 import ColorMaterialModal from "./modals/ColorMaterialModal";
+import OrderRingModal from "./modals/OrderRingModal";
 
 const options = [
   { value: "oval", label: "Ovalni" },
@@ -49,6 +50,7 @@ class RingPair extends Component {
       colorMaterialModal1: false,
       colorMaterialModal2: false,
       colorMaterialModal3: false,
+      orderRingModal: false,
     };
   }
 
@@ -97,7 +99,26 @@ class RingPair extends Component {
     }
     return (
       <div className="ring-pair-container">
-        {ringImage}
+        <div className="ring-pair-order">
+          {ringImage}
+          <div
+            className="btn-submit"
+            onClick={() =>
+              this.setState({
+                colorMaterialModal1: false,
+                colorMaterialModal2: false,
+                colorMaterialModal3: false,
+                alocationModal: false,
+                orderRingModal: !this.state.orderRingModal,
+              })
+            }
+          >
+            Poruči
+          </div>
+          {this.state.orderRingModal && (
+            <OrderRingModal order={this.state} ringImg={ringImage} />
+          )}
+        </div>
         <div className="ring-profile-select">
           <div className="ring-profile-select-container">
             <span className="ring-profile-select-span">Profil Prstena:</span>
