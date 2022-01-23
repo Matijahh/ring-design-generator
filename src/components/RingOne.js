@@ -3,9 +3,11 @@ import Select from "react-select";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
 
+// Images
 import IMAGES from "./imports/ImagesImports";
 import Logo from "../assets/images/logo-condensed.png";
 
+// Modals
 import AlocationModal from "./modals/AlocationModal";
 import ColorMaterialModal from "./modals/ColorMaterialModal";
 import OrderRingModal from "./modals/OrderRingModal";
@@ -31,7 +33,7 @@ const seamOptions = [
   { value: "u-seam", label: "U-Porub", disabled: false },
 ];
 
-class RingPair extends Component {
+class RingOne extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -51,7 +53,41 @@ class RingPair extends Component {
       colorMaterialModal2: false,
       colorMaterialModal3: false,
       orderRingModal: false,
+      saved: false,
     };
+    this.handleSave = this.handleSave.bind(this);
+  }
+
+  componentDidMount() {
+    const data = JSON.parse(window.localStorage.getItem("ringOne"));
+    if (data) {
+      this.setState({
+        ...data,
+        alocationModal: false,
+        colorMaterialModal1: false,
+        colorMaterialModal2: false,
+        colorMaterialModal3: false,
+        orderRingModal: false,
+      });
+    }
+  }
+
+  handleSave() {
+    const data = {
+      profile: this.state.profile,
+      color: this.state.color,
+      color2: this.state.color2,
+      color3: this.state.color3,
+      measure: this.state.measure,
+      size: this.state.size,
+      surface: this.state.surface,
+      surface2: this.state.surface2,
+      surface3: this.state.surface3,
+      seam: this.state.seam,
+      alocation: this.state.alocation,
+    };
+    window.localStorage.setItem("ringOne", JSON.stringify(data));
+    this.setState({ ...this.state, saved: true });
   }
 
   render() {
@@ -101,19 +137,27 @@ class RingPair extends Component {
       <div className="ring-pair-container">
         <div className="ring-pair-order">
           {ringImage}
-          <div
-            className="btn-submit"
-            onClick={() =>
-              this.setState({
-                colorMaterialModal1: false,
-                colorMaterialModal2: false,
-                colorMaterialModal3: false,
-                alocationModal: false,
-                orderRingModal: !this.state.orderRingModal,
-              })
-            }
-          >
-            Poruči
+          <div style={{ display: "flex" }}>
+            <div
+              className={`btn-submit ${this.state.saved ? "btn-saved" : ""}`}
+              onClick={this.handleSave}
+            >
+              {this.state.saved ? "Sačuvano" : "Sačuvaj"}
+            </div>
+            <div
+              className="btn-submit"
+              onClick={() =>
+                this.setState({
+                  colorMaterialModal1: false,
+                  colorMaterialModal2: false,
+                  colorMaterialModal3: false,
+                  alocationModal: false,
+                  orderRingModal: !this.state.orderRingModal,
+                })
+              }
+            >
+              Poruči
+            </div>
           </div>
           {this.state.orderRingModal && (
             <OrderRingModal order={this.state} ringImg={ringImage} />
@@ -451,4 +495,4 @@ class RingPair extends Component {
   }
 }
 
-export default RingPair;
+export default RingOne;

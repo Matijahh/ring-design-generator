@@ -6,8 +6,8 @@ import "./assets/scss/app.scss";
 // Import Components
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
-import RingPair from "./components/RingPair";
-import RingSolo from "./components/RingSolo";
+import RingOne from "./components/RingOne";
+import RingTwo from "./components/RingTwo";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <div style={{ display: "flex", width: "100vw", position: "relative" }}>
         <Sidebar />
         <Switch>
-          <Route exact path="/" component={RingPair} />
-          <Route path="/one-ring" component={RingSolo} />
+          <Route exact path="/" component={RingOne} />
+          <Route path="/second-ring" component={RingTwo} />
         </Switch>
       </div>
     </div>

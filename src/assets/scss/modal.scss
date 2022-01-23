@@ -8,6 +8,10 @@
   z-index: 1000;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
 
+  @media screen and (max-width: 1600px) {
+    width: 450px;
+  }
+
   .single-colored {
     display: flex;
     align-items: center;
@@ -40,6 +44,11 @@
   span {
     width: 100px !important;
   }
+  @media screen and (max-width: 1600px) {
+    .color-tab {
+      width: 70px !important;
+    }
+  }
 }
 
 .order-ring-modal-container {
@@ -49,12 +58,13 @@
   background-color: #ffffff;
   border-radius: 30px;
   position: absolute;
+  z-index: 2;
   bottom: 0;
-  left: 50%;
+  left: 26.5%;
   transform: translate(-50%, -23%);
-  z-index: 1005;
   color: #000000;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+
   .img-container {
     display: flex;
     margin-right: 20px;
