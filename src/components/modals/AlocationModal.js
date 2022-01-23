@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import SingleColored from "../../assets/images/single-colored.jpg";
 import BiColored1 from "../../assets/images/bi-colored-1.jpg";
-import BiColored2 from "../../assets/images/bi-colored-2.jpg";
-import BiColored3 from "../../assets/images/bi-colored-3.jpg";
-import BiColored4 from "../../assets/images/bi-colored-4.jpg";
+// import BiColored2 from "../../assets/images/bi-colored-2.jpg";
+// import BiColored3 from "../../assets/images/bi-colored-3.jpg";
+// import BiColored4 from "../../assets/images/bi-colored-4.jpg";
 import TriColored1 from "../../assets/images/tri-colored-1.jpg";
-import TriColored2 from "../../assets/images/tri-colored-2.jpg";
-import TriColored3 from "../../assets/images/tri-colored-3.jpg";
-import TriColored4 from "../../assets/images/tri-colored-4.jpg";
-import TriColored5 from "../../assets/images/tri-colored-5.jpg";
-import TriColored6 from "../../assets/images/tri-colored-6.jpg";
-import TriColored7 from "../../assets/images/tri-colored-7.jpg";
-import TriColored8 from "../../assets/images/tri-colored-8.jpg";
+// import TriColored2 from "../../assets/images/tri-colored-2.jpg";
+// import TriColored3 from "../../assets/images/tri-colored-3.jpg";
+// import TriColored4 from "../../assets/images/tri-colored-4.jpg";
+// import TriColored5 from "../../assets/images/tri-colored-5.jpg";
+// import TriColored6 from "../../assets/images/tri-colored-6.jpg";
+// import TriColored7 from "../../assets/images/tri-colored-7.jpg";
+// import TriColored8 from "../../assets/images/tri-colored-8.jpg";
 
 class AlocationModal extends Component {
   render() {

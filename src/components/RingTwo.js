@@ -6,6 +6,9 @@ import "rc-slider/assets/index.css";
 // Images
 import IMAGES from "./imports/ImagesImports";
 import Logo from "../assets/images/logo-condensed.png";
+import ShoppingCart from "../assets/images/shopping-cart.png";
+import SaveIcon from "../assets/images/bookmark.png";
+import SavedIcon from "../assets/images/bookmark-saved.png";
 
 // Modals
 import AlocationModal from "./modals/AlocationModal";
@@ -56,6 +59,7 @@ class RingTwo extends Component {
       saved: false,
     };
     this.handleSave = this.handleSave.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   componentDidMount() {
@@ -88,6 +92,17 @@ class RingTwo extends Component {
     };
     window.localStorage.setItem("ringTwo", JSON.stringify(data));
     this.setState({ ...this.state, saved: true });
+  }
+
+  handleSubmit() {
+    this.setState({
+      ...this.state,
+      colorMaterialModal1: false,
+      colorMaterialModal2: false,
+      colorMaterialModal3: false,
+      alocationModal: false,
+      orderRingModal: !this.state.orderRingModal,
+    });
   }
 
   render() {
@@ -143,20 +158,15 @@ class RingTwo extends Component {
               onClick={this.handleSave}
             >
               {this.state.saved ? "Sačuvano" : "Sačuvaj"}
+              {this.state.saved ? (
+                <img className="saved-icon" src={SavedIcon} alt="Saved" />
+              ) : (
+                <img className="save-icon" src={SaveIcon} alt="Save" />
+              )}
             </div>
-            <div
-              className="btn-submit"
-              onClick={() =>
-                this.setState({
-                  colorMaterialModal1: false,
-                  colorMaterialModal2: false,
-                  colorMaterialModal3: false,
-                  alocationModal: false,
-                  orderRingModal: !this.state.orderRingModal,
-                })
-              }
-            >
-              Poruči
+            <div className="btn-submit" onClick={this.handleSubmit}>
+              <span>Poruči</span>
+              <img className="order-icon" src={ShoppingCart} alt="Order" />
             </div>
           </div>
           {this.state.orderRingModal && (
