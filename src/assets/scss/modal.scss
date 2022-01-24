@@ -65,7 +65,8 @@
   color: #000000;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
 
-  .img-container {
+  .img-container,
+  .stone-container {
     display: flex;
     margin-right: 20px;
     justify-content: center;
@@ -109,7 +110,7 @@
       }
       .submit-btn {
         width: calc(100% + 20px);
-        background-color: rgba(75, 181, 67, 0.5);
+        background-color: #4bb543;
         margin-top: 30px;
         font-weight: bold;
         cursor: pointer;

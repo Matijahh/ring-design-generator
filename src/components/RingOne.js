@@ -136,11 +136,17 @@ class RingOne extends Component {
   }
 
   render() {
-    let ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+    let ringImage = (
+      <img
+        style={{ height: "auto", marginTop: 200 }}
+        src={Logo}
+        alt="RingOne"
+      />
+    );
     let stoneImage = null;
     if (this.state.stoneNum === 0) {
       stoneImage = null;
-    } else if (this.state.stoneNum > 0 && this.state.stoneNum < 6) {
+    } else if (this.state.stoneNum > 0 && this.state.stoneNum < 8) {
       stoneImage = (
         <img
           className="stones"
@@ -154,7 +160,7 @@ class RingOne extends Component {
       stoneImage = (
         <img
           className="stones"
-          src={require(`../assets/images/stone-5.png`).default}
+          src={require(`../assets/images/stone-7.png`).default}
           alt="Stones"
         />
       );
@@ -171,7 +177,13 @@ class RingOne extends Component {
           />
         );
       } catch {
-        ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+        ringImage = (
+          <img
+            style={{ height: "auto", marginTop: 200 }}
+            src={Logo}
+            alt="RingOne"
+          />
+        );
       }
     } else {
       try {
@@ -197,7 +209,13 @@ class RingOne extends Component {
           );
         }
       } catch {
-        ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+        ringImage = (
+          <img
+            style={{ height: "auto", marginTop: 200 }}
+            src={Logo}
+            alt="RingOne"
+          />
+        );
       }
     }
     return (
@@ -227,7 +245,11 @@ class RingOne extends Component {
             </div>
           </div>
           {this.state.orderRingModal && (
-            <OrderRingModal order={this.state} ringImg={ringImage} />
+            <OrderRingModal
+              order={this.state}
+              ringImg={ringImage}
+              stoneImg={stoneImage}
+            />
           )}
         </div>
         <div className="ring-profile-select">

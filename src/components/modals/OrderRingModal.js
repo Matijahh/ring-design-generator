@@ -70,6 +70,7 @@ class OrderRingModal extends Component {
   render() {
     return (
       <div className="order-ring-modal-container">
+        <div className="stone-container">{this.props.stoneImg}</div>
         <div className="img-container">{this.props.ringImg}</div>
         <div className="form-container">
           <form
