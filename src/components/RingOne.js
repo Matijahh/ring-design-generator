@@ -9,6 +9,7 @@ import Logo from "../assets/images/logo-condensed.png";
 import ShoppingCart from "../assets/images/shopping-cart.png";
 import SaveIcon from "../assets/images/bookmark.png";
 import SavedIcon from "../assets/images/bookmark-saved.png";
+import DeleteIcon from "../assets/images/delete.png";
 
 // Modals
 import AlocationModal from "./modals/AlocationModal";
@@ -50,6 +51,7 @@ class RingOne extends Component {
       surface2: "polished",
       surface3: "polished",
       seam: "seamless",
+      stoneNum: 0,
       alocationModal: false,
       alocation: "single",
       colorMaterialModal1: false,
@@ -60,6 +62,7 @@ class RingOne extends Component {
     };
     this.handleSave = this.handleSave.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleClear = this.handleClear.bind(this);
   }
 
   componentDidMount() {
@@ -88,10 +91,37 @@ class RingOne extends Component {
       surface2: this.state.surface2,
       surface3: this.state.surface3,
       seam: this.state.seam,
+      stoneNum: this.state.stoneNum,
       alocation: this.state.alocation,
     };
     window.localStorage.setItem("ringOne", JSON.stringify(data));
     this.setState({ ...this.state, saved: true });
+  }
+
+  handleClear() {
+    const data = {
+      profile: "oval",
+      color: "white",
+      color2: "white",
+      color3: "white",
+      measure: 3,
+      size: 45,
+      surface: "polished",
+      surface2: "polished",
+      surface3: "polished",
+      seam: "seamless",
+      stoneNum: 0,
+      alocation: "single",
+      saved: false,
+    };
+    this.setState({
+      ...data,
+      colorMaterialModal1: false,
+      colorMaterialModal2: false,
+      colorMaterialModal3: false,
+      alocationModal: false,
+      orderRingModal: false,
+    });
   }
 
   handleSubmit() {
@@ -107,6 +137,28 @@ class RingOne extends Component {
 
   render() {
     let ringImage = <img style={{ height: "auto" }} src={Logo} alt="RingOne" />;
+    let stoneImage = null;
+    if (this.state.stoneNum === 0) {
+      stoneImage = null;
+    } else if (this.state.stoneNum > 0 && this.state.stoneNum < 6) {
+      stoneImage = (
+        <img
+          className="stones"
+          src={
+            require(`../assets/images/stone-${this.state.stoneNum}.png`).default
+          }
+          alt="Stones"
+        />
+      );
+    } else {
+      stoneImage = (
+        <img
+          className="stones"
+          src={require(`../assets/images/stone-5.png`).default}
+          alt="Stones"
+        />
+      );
+    }
     if (this.state.alocation === "single") {
       try {
         ringImage = (
@@ -151,6 +203,7 @@ class RingOne extends Component {
     return (
       <div className="ring-pair-container">
         <div className="ring-pair-order">
+          {stoneImage}
           {ringImage}
           <div style={{ display: "flex" }}>
             <div
@@ -168,6 +221,10 @@ class RingOne extends Component {
               <span>Poruči</span>
               <img className="order-icon" src={ShoppingCart} alt="Order" />
             </div>
+            <div className="btn-submit" onClick={this.handleClear}>
+              <span>Obriši</span>
+              <img className="order-icon" src={DeleteIcon} alt="Delete" />
+            </div>
           </div>
           {this.state.orderRingModal && (
             <OrderRingModal order={this.state} ringImg={ringImage} />
@@ -184,7 +241,11 @@ class RingOne extends Component {
                 placeholder="Izaberi..."
                 defaultValue={{ value: "oval", label: "Ovalni" }}
                 onChange={(e) =>
-                  this.setState({ profile: e ? e.value : "oval" })
+                  this.setState({
+                    ...this.state,
+                    profile: e ? e.value : "oval",
+                    saved: false,
+                  })
                 }
               />
             </div>
@@ -210,7 +271,9 @@ class RingOne extends Component {
                 75: 75,
               }}
               step={5}
-              onChange={(e) => this.setState({ size: e })}
+              onChange={(e) =>
+                this.setState({ ...this.state, size: e, saved: false })
+              }
             />
           </div>
           <div
@@ -242,7 +305,9 @@ class RingOne extends Component {
                 10: 10,
               }}
               step={0.5}
-              onChange={(e) => this.setState({ measure: e })}
+              onChange={(e) =>
+                this.setState({ ...this.state, measure: e, saved: false })
+              }
             />
           </div>
 
@@ -268,6 +333,7 @@ class RingOne extends Component {
                     colorMaterialModal3: false,
                     alocationModal: false,
                     colorMaterialModal1: !this.state.colorMaterialModal1,
+                    saved: false,
                   })
                 }
               >
@@ -279,11 +345,13 @@ class RingOne extends Component {
                           alocation: "single",
                           color: color,
                           colorMaterialModal1: false,
+                          saved: false,
                         });
                       } else {
                         this.setState({
                           color: color,
                           colorMaterialModal1: false,
+                          saved: false,
                         });
                       }
                     }}
@@ -293,11 +361,13 @@ class RingOne extends Component {
                           surface: material,
                           surface2: material,
                           colorMaterialModal1: false,
+                          saved: false,
                         });
                       } else {
                         this.setState({
                           surface: material,
                           colorMaterialModal1: false,
+                          saved: false,
                         });
                       }
                     }}
@@ -314,6 +384,7 @@ class RingOne extends Component {
                       colorMaterialModal3: false,
                       alocationModal: false,
                       colorMaterialModal2: !this.state.colorMaterialModal2,
+                      saved: false,
                     })
                   }
                 >
@@ -325,11 +396,13 @@ class RingOne extends Component {
                             alocation: "single",
                             color: color,
                             colorMaterialModal2: false,
+                            saved: false,
                           });
                         } else {
                           this.setState({
                             color2: color,
                             colorMaterialModal2: false,
+                            saved: false,
                           });
                         }
                       }}
@@ -339,11 +412,13 @@ class RingOne extends Component {
                             surface: material,
                             surface2: material,
                             colorMaterialModal2: false,
+                            saved: false,
                           });
                         } else {
                           this.setState({
                             surface2: material,
                             colorMaterialModal2: false,
+                            saved: false,
                           });
                         }
                       }}
@@ -365,6 +440,7 @@ class RingOne extends Component {
                         colorMaterialModal2: false,
                         alocationModal: false,
                         colorMaterialModal3: !this.state.colorMaterialModal3,
+                        saved: false,
                       })
                     }
                   >
@@ -374,12 +450,14 @@ class RingOne extends Component {
                           this.setState({
                             color3: color,
                             colorMaterialModal3: false,
+                            saved: false,
                           })
                         }
                         onChangeMaterial={(material) =>
                           this.setState({
                             surface3: material,
                             colorMaterialModal3: false,
+                            saved: false,
                           })
                         }
                       />
@@ -389,10 +467,37 @@ class RingOne extends Component {
                 )}
             </div>
           </div>
-
+          <div
+            className="ring-measure-select-container"
+            style={{ marginTop: 40 }}
+          >
+            <span className="ring-profile-select-span">Broj kamena:</span>
+            <Slider
+              min={0}
+              max={10}
+              defaultValue={this.state.stoneNum}
+              marks={{
+                0: 0,
+                1: 1,
+                2: 2,
+                3: 3,
+                4: 4,
+                5: 5,
+                6: 6,
+                7: 7,
+                8: 8,
+                9: 9,
+                10: 10,
+              }}
+              step={1}
+              onChange={(e) =>
+                this.setState({ ...this.state, stoneNum: e, saved: false })
+              }
+            />
+          </div>
           <div
             className="ring-profile-select-container"
-            style={{ marginTop: 40 }}
+            style={{ marginTop: 60 }}
           >
             <span className="ring-profile-select-span">Porub Prstena:</span>
             <div style={{ width: "100%" }}>
@@ -405,7 +510,11 @@ class RingOne extends Component {
                   placeholder="Izaberi..."
                   defaultValue={{ value: "seamless", label: "Bez Poruba" }}
                   onChange={(e) =>
-                    this.setState({ seam: e ? e.value : "seamless" })
+                    this.setState({
+                      ...this.state,
+                      seam: e ? e.value : "seamless",
+                      saved: false,
+                    })
                   }
                 />
               ) : (
@@ -417,7 +526,11 @@ class RingOne extends Component {
                   placeholder="Izaberi..."
                   defaultValue={{ value: "v-seam", label: "V-Porub" }}
                   onChange={(e) =>
-                    this.setState({ seam: e ? e.value : "v-seam" })
+                    this.setState({
+                      ...this.state,
+                      seam: e ? e.value : "v-seam",
+                      saved: false,
+                    })
                   }
                 />
               )}
@@ -438,6 +551,7 @@ class RingOne extends Component {
                       alocation: alocation,
                       seam: "seamless",
                       alocationModal: !this.state.alocationModal,
+                      saved: false,
                     });
                   } else {
                     this.setState({
@@ -447,6 +561,7 @@ class RingOne extends Component {
                       alocation: alocation,
                       seam: "v-seam",
                       alocationModal: !this.state.alocationModal,
+                      saved: false,
                     });
                   }
                 }}
@@ -495,6 +610,7 @@ class RingOne extends Component {
                   colorMaterialModal1: false,
                   colorMaterialModal2: false,
                   colorMaterialModal3: false,
+                  saved: false,
                 })
               }
             />

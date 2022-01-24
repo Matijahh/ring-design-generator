@@ -19,6 +19,13 @@
     flex-direction: column;
     align-items: center;
 
+    .stones {
+      position: absolute;
+      @media screen and (max-width: 1650px) {
+        margin-top: 20px !important;
+      }
+    }
+
     img {
       width: 700px;
       height: 500px;
@@ -89,7 +96,7 @@
       margin-right: 50px;
       font-family: "Playfair Display", serif;
       text-transform: uppercase;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
 
       @media screen and (max-width: 1600px) {
@@ -205,7 +212,7 @@
 
   .alocation-container {
     img {
-      height: 300px;
+      height: 200px;
       cursor: pointer;
       @media screen and(max-width: 1600px) {
         height: 120px;
