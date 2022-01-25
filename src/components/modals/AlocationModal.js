@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SingleColored from "../../assets/images/single-colored.jpg";
 import BiColored1 from "../../assets/images/bi-colored-1.jpg";
-// import BiColored2 from "../../assets/images/bi-colored-2.jpg";
+import BiColored2 from "../../assets/images/bi-colored-2.jpg";
 // import BiColored3 from "../../assets/images/bi-colored-3.jpg";
 // import BiColored4 from "../../assets/images/bi-colored-4.jpg";
 import TriColored1 from "../../assets/images/tri-colored-1.jpg";
@@ -34,12 +34,12 @@ class AlocationModal extends Component {
             onClick={() => this.props.onChangeAlocation("bi-1")}
             style={{ margin: "0 auto" }}
           />
-          {/* <img
+          <img
             src={BiColored2}
             alt="alocation-tab"
             onClick={() => this.props.onChangeAlocation("bi-2")}
             style={{ margin: 0 }}
-          /> */}
+          />
         </div>
         {/* <div
           className="single-colored"

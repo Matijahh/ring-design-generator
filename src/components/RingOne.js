@@ -185,7 +185,7 @@ class RingOne extends Component {
           />
         );
       }
-    } else {
+    } else if (this.state.alocation === "bi-1") {
       try {
         if (this.state.color === this.state.color2) {
           ringImage = (
@@ -202,6 +202,38 @@ class RingOne extends Component {
             <img
               src={
                 require(`../assets/images/b-1/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-${this.state.color2}-gold-bi-1-${this.state.surface}-${this.state.surface2}-${this.state.seam}.jpg`)
+                  .default
+              }
+              alt="RingOne"
+            />
+          );
+        }
+      } catch {
+        ringImage = (
+          <img
+            style={{ height: "auto", marginTop: 200 }}
+            src={Logo}
+            alt="RingOne"
+          />
+        );
+      }
+    } else {
+      try {
+        if (this.state.color === this.state.color2) {
+          ringImage = (
+            <img
+              src={
+                require(`../assets/images/single/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-single-${this.state.surface}.jpg`)
+                  .default
+              }
+              alt="RingOne"
+            />
+          );
+        } else {
+          ringImage = (
+            <img
+              src={
+                require(`../assets/images/b-2/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-${this.state.color2}-gold-bi-2-${this.state.surface}-${this.state.surface2}-${this.state.seam}.jpg`)
                   .default
               }
               alt="RingOne"
