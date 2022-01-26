@@ -144,18 +144,7 @@ class RingTwo extends Component {
       />
     );
     let stoneImage = null;
-    if (
-      ringImage ===
-      (
-        <img
-          style={{ height: "auto", marginTop: 200 }}
-          src={Logo}
-          alt="RingOne"
-        />
-      )
-    ) {
-      stoneImage = null;
-    } else if (this.state.stoneNum === 0) {
+    if (this.state.stoneNum === 0) {
       stoneImage = null;
     } else if (this.state.stoneNum > 0 && this.state.stoneNum < 8) {
       stoneImage = (
@@ -196,7 +185,7 @@ class RingTwo extends Component {
           />
         );
       }
-    } else {
+    } else if (this.state.alocation === "bi-1") {
       try {
         if (this.state.color === this.state.color2) {
           ringImage = (
@@ -213,6 +202,38 @@ class RingTwo extends Component {
             <img
               src={
                 require(`../assets/images/b-1/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-${this.state.color2}-gold-bi-1-${this.state.surface}-${this.state.surface2}-${this.state.seam}.jpg`)
+                  .default
+              }
+              alt="RingOne"
+            />
+          );
+        }
+      } catch {
+        ringImage = (
+          <img
+            style={{ height: "auto", marginTop: 200 }}
+            src={Logo}
+            alt="RingOne"
+          />
+        );
+      }
+    } else {
+      try {
+        if (this.state.color === this.state.color2) {
+          ringImage = (
+            <img
+              src={
+                require(`../assets/images/single/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-single-${this.state.surface}.jpg`)
+                  .default
+              }
+              alt="RingOne"
+            />
+          );
+        } else {
+          ringImage = (
+            <img
+              src={
+                require(`../assets/images/b-2/oval/${this.state.profile}-${this.state.measure}-${this.state.color}-${this.state.color2}-gold-bi-2-${this.state.surface}-${this.state.surface2}-${this.state.seam}.jpg`)
                   .default
               }
               alt="RingOne"
