@@ -25,14 +25,7 @@ const options = [
   // { value: "forma", label: "Formalni" },
 ];
 
-const seamOptionsSingle = [
-  { value: "seamless", label: "Bez poruba", disabled: false },
-  { value: "v-seam", label: "V-Porub", disabled: true },
-  { value: "u-seam", label: "U-Porub", disabled: true },
-];
-
 const seamOptions = [
-  { value: "seamless", label: "Bez poruba", disabled: true },
   { value: "v-seam", label: "V-Porub", disabled: false },
   { value: "u-seam", label: "U-Porub", disabled: false },
 ];
@@ -285,7 +278,7 @@ class RingOne extends Component {
           )}
         </div>
         <div className="ring-profile-select">
-          <div className="ring-profile-select-container">
+          {/* <div className="ring-profile-select-container">
             <span className="ring-profile-select-span">Profil Prstena:</span>
             <div style={{ width: "100%" }}>
               <Select
@@ -303,7 +296,7 @@ class RingOne extends Component {
                 }
               />
             </div>
-          </div>
+          </div> */}
           <div
             className="ring-measure-select-container"
             style={{ marginTop: 40 }}
@@ -549,29 +542,13 @@ class RingOne extends Component {
               }
             />
           </div>
-          <div
-            className="ring-profile-select-container"
-            style={{ marginTop: 60 }}
-          >
-            <span className="ring-profile-select-span">Porub Prstena:</span>
-            <div style={{ width: "100%" }}>
-              {this.state.alocation === "single" ? (
-                <Select
-                  className="ring-profile-select-select"
-                  options={seamOptionsSingle}
-                  isOptionDisabled={(option) => option.disabled}
-                  isClearable
-                  placeholder="Izaberi..."
-                  defaultValue={{ value: "seamless", label: "Bez Poruba" }}
-                  onChange={(e) =>
-                    this.setState({
-                      ...this.state,
-                      seam: e ? e.value : "seamless",
-                      saved: false,
-                    })
-                  }
-                />
-              ) : (
+          {this.state.alocation !== "single" && (
+            <div
+              className="ring-profile-select-container"
+              style={{ marginTop: 60 }}
+            >
+              <span className="ring-profile-select-span">Porub Prstena:</span>
+              <div style={{ width: "100%" }}>
                 <Select
                   className="ring-profile-select-select"
                   options={seamOptions}
@@ -587,9 +564,9 @@ class RingOne extends Component {
                     })
                   }
                 />
-              )}
+              </div>
             </div>
-          </div>
+          )}
           <div
             className="ring-profile-select-container alocation-container"
             style={{ marginTop: 40, position: "relative" }}

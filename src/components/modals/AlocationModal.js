@@ -58,7 +58,7 @@ class AlocationModal extends Component {
             style={{ margin: 0 }}
           />
         </div> */}
-        <div
+        {/* <div
           className="single-colored"
           style={{ border: "none", paddingBottom: 0 }}
         >
@@ -69,13 +69,13 @@ class AlocationModal extends Component {
             onClick={() => this.props.onChangeAlocation("tri-1")}
             style={{ margin: "0 auto" }}
           />
-          {/* <img
+          <img
             src={TriColored2}
             alt="alocation-tab"
             onClick={() => this.props.onChangeAlocation("tri-2")}
             style={{ margin: 0 }}
-          /> */}
-        </div>
+          />
+        </div> */}
         {/* <div
           className="single-colored"
           style={{
